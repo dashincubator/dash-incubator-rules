@@ -365,7 +365,9 @@ Each type of reward for Tasks in the App are listed below along with the min/max
 
 Rewards are fixed, Dash-denominated amounts decided by the Primary Admin in all cases except when the Primary Admin is the user requesting to add, reserve, or claim the task, in which case the amount is decided by the Secondary Admin.  Users may negotiate the amount with the appropriate Admin before requesting a reservation or making a claim (see Section 5 for details).
 
-The Meta % is an added commission that an Admin earns for processing a task claim, which is carried out by either the Bounty's Primary Admin, or its Secondary Admin.  For example, under 10% commission, an approved 10 DASH Task yields 10 DASH for the user completing the task, and 1 DASH for the Admin processing the claim, either the Primary Admin (most cases) or the Secondary Admin (when the Primary Admin completes the task and claims its reward).
+The Admin % is an added commission that an Admin earns for processing a task claim, which is carried out by either the Bounty's Primary Admin, or its Secondary Admin. For example, under 10% commission, an approved 10 DASH Task yields 10 DASH for the user completing the task, and 1 DASH for the Admin processing the claim, either the Primary Admin (most cases) or the Secondary Admin (when the Primary Admin completes the task and claims its reward).
+
+### 2.5.1 Bounty Rewards
 
 <table>
   <tr>
@@ -375,7 +377,7 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td><strong>Amount</strong>
    </td>
-   <td><strong>Meta %</strong>
+   <td><strong>Admin %</strong>
    </td>
   </tr>
   <tr>
@@ -385,7 +387,7 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td>1 Dash
    </td>
-   <td>10%
+   <td>10% - 15%
    </td>
   </tr>
   <tr>
@@ -395,7 +397,7 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td>0.1-5 Dash
    </td>
-   <td>10%
+   <td>10% - 15%
    </td>
   </tr>
   <tr>
@@ -405,7 +407,7 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td>0.1-20 Dash
    </td>
-   <td>10%
+   <td>10% - 15%
    </td>
   </tr>
   <tr>
@@ -415,7 +417,7 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td>0.1-10 Dash
    </td>
-   <td>10%
+   <td>10% - 15%
    </td>
   </tr>
   <tr>
@@ -425,10 +427,47 @@ The Meta % is an added commission that an Admin earns for processing a task clai
    </td>
    <td>0.1-5 Dash
    </td>
-   <td>10%
+   <td>10% - 15%
    </td>
   </tr>
 </table>
+
+### 2.5.2 Admin Commission Rates
+
+Each individual admin's commission is variable based on the number of contributions (bounty claims processed) in the previous 30 days (including "today"). There are 3 Tiers of commissions and admin can earn: 10%, 12%, 15%
+
+<table>
+  <tr>
+   <td><strong>Count of bounty claims processed</strong>
+   </td>
+   <td><strong>Commission Rate</strong>
+   </td>
+  </tr>
+  <tr>
+    <td>0 - 14
+    </td>
+    <td>10%
+    </td>
+  </tr>
+  <tr>
+    <td>15 - 29
+    </td>
+    <td>12%
+    </td>
+  </tr>
+  <tr>
+    <td>30 +
+    </td>
+    <td>15%
+    </td>
+  </tr>
+
+Each reward an admin receives is valued based on the Tier the admin’s previous 30 days contributions fall into. The "next" tier of commission is effective immediately once an Admin crosses the threshold, and is effective for all claims as long as the Admin meets the criteria.
+
+For example:
+* Admin Alice has processed 10 claims in the past 30 days (including today). If Alice processes 5 additional claims today, Alice will be eligible for a 12% commission on the 5th claim (and any additional claims).
+* Admin Albert has processed 34 claims in the past 30 days, but 7 of those were processed exactly 30 days ago. If Albert processes claims today, each of those will earn 15%. If Albert does not process at least 2 claims today, his commission rate will be 12% for claims processed tomorrow until his 30 day count is 30 or more again, at which point Albert will return to a 15% commission.
+* Admin Ash has processed 9 claims in the past 30 days. Today Ash processes 21 claims. For the first 5 claims Ash processes today the commission is 10%. For the next 15 (claims 15 - 29) the commissions is 12%. The final claim Ash processes has a 15% commission.
 
 # 3 Output
 
@@ -658,7 +697,7 @@ Once an approved Claim is awarded (the txid was entered into the sheet), the Bou
 
 ## 4.4 Admin Rewards
 
-Admins receive a % of the reward for Tasks on Bounty’s they administer, added to the Task reward, using the rates defined in the [Rewards List](#25-price-list).
+Admins receive a % of the reward for Tasks on Bounty’s they administer, added to the Task reward, using the rates defined in the [Rewards List](#252-admin-commission-rates).
 
 For example, if a Task Reward is 1 Dash and the Admin Reward is fixed at 10%, the user completing the Task is awarded the 1 Dash and the Bounty Admin is awarded an additional 0.1 Dash.
 
