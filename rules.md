@@ -461,6 +461,7 @@ Each individual admin's commission is variable based on the number of contributi
     <td>15%
     </td>
   </tr>
+</table>
 
 Each reward an admin receives is valued based on the Tier the admin’s previous 30 days contributions fall into. The "next" tier of commission is effective immediately once an Admin crosses the threshold, and is effective for all claims as long as the Admin meets the criteria.
 
