@@ -605,7 +605,7 @@ Before the full dApp implementation, and before fully decentralized mechanisms a
 
  If the Governance Committee need to exercise any of these rights, they must leave a comment (e.g. on Trello or Github depending on the action) detailing the action and explaining the reasons as to why an action was taken.
 
-Governance Committee members can be added & removed through voting as per the voting criteria defined in Section 4.5 - Governance. If a Governance Committee member is removed, any heldresponsibilities/funds will be transferred to another Governance Committee member. 
+Governance Committee members can be added & removed through voting as per the voting criteria defined in Section 4.5 - Governance. If a Governance Committee member is removed, any held responsibilities/funds will be transferred to another Governance Committee member. 
 
 > Governance Committee roles are incentivized by [Service Bounties] defined within the Incubator app itself.
 
