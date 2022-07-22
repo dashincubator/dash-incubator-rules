@@ -220,7 +220,7 @@ Once a Task Claim is approved by an Admin, the Task Reward will be awarded to th
 
 Incubator is a pure-Dash fund meaning all rewards are awarded in Dash.
 
-Each type of [Task](#25-tasks) offered by the Incubator has limits on the min/max rewards an Admin may [price](#433-pricing-tasks) as defined below.
+Each type of [Task](#25-tasks) offered by the Incubator has limits on the min/max rewards an Admin may [price](#433-pricing-tasks) as defined below. Task limit exceptions can be agreed by the Governance Committee on a case-by-case basis. In the event an Admin needs to exceed the task limit, they should submit a request to the Governance Committee with adequate background/justification and (once/if the vote passes) add a comment to the Bounty’s Trello Card specifying the reason and the vote outcome.
 
 The Admin % is an added [commission reward](#44-admin-rewards) that an Admin earns for Approving a Claim on a Task they own, plus a [commission bonus](#441-commission-bonuses) based on the Admin's level of activity.
 
