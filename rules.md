@@ -21,7 +21,7 @@ View [RULES HISTORY](https://github.com/dashincubator/dash-incubator-app/commits
 
 The Incubator uses its own micro-incentive based [Bounty](#2-bounties) system to fund and manage the end-to-end delivery of a wide variety of projects [proposed](#21-concepts) by the community, ranging from small [jobs](#22-bounty-types) such as bug bounties, to ongoing [services](#22-bounty-types) such as promotions or infrastructure provision, to mid-size development [projects](#22-bounty-types) such as dApps and development tools, to large development [programmes](#22-bounty-types) involving multiple products that need to be developed and launched together.
 
-Fund allocation and management is decentralized across [Admin](#4-admins) users who are [incentivized](#44-admin-rewards) with a percentage of the Dash they award on Bounties and a [PO role](#53-proposal-owner) responsible for fund management.
+Fund allocation and management is decentralized across [Admin](#4-admins) users who are [incentivized](#44-admin-rewards) with a percentage of the Dash they award on Bounties and a Governance Committee responsible for fund management.
 
 The Incubator is classified as an [open-source Dash Funded Organization (DFO)](#14-full-transparency), meaning that all internal operations of the Incubator are conducted in the public domain at all times.  This includes how work is proposed, selected, specified, developed, tested, approved, which users are completing or managing work, what rewards they are allocating or receiving and all internal decision making and governance.
 
@@ -86,7 +86,7 @@ There are several levels to classification of Incubator App users as follows:
 - Members - any user who has signed up to create an account on the App
 - [Contributors](#3-contributing) - Members who create output for the Incubator
 - [Admins](#4-admins) - Members with rights to create and manage Bounties, and earn commission from Task rewards
-- [Proposal Owner (PO)](#53-proposal-owner) - an Admin who is designated to raise Proposals to the Dash network on behalf of the Incubator 
+- Governance Committee - Admins who are designated to manage funds, for voting and to contribute towards raiseing Proposals to the Dash network on behalf of the Incubator 
 
 > Currently all Members can be found as the members of our [Trello board](https://trello.com/b/FPJzDcok/dash-incubator-app)
 
@@ -354,13 +354,11 @@ Therefore users who wish to decline rewards still need to make a Claim to signif
 
 Admins are a second-tier of users in the Incubator who are incentivized to manage Bounties by earning a [commission](#27-rewards) on all Tasks completed within the Bounty.
 
-As all work (and spending) is structured as a Bounty within the Incubator, and Bounties can relate to working on the Incubator itself and be both managed and produced by Admins, they represent a decentralized layer of users who manage every aspect of the Incubator.
+All work (and spending) is structured as a Bounty within the Incubator, and Bounties can relate to working on the Incubator itself and be both managed and produced by Admins.
 
 Admins are peers, each with control of a share of the Incubator's funds that they can use to create and manage bounties that incentivize Contributors to produce output for the Incubator.
 
 Admins can simultaneously act as Contributors, by completing Tasks set by other Admins, but they cannot price or reserve Tasks for themselves.
-
-Admins have additional rights to appoint other Admins and to maintain the Rules defined in this document, which define all aspects of how the Incubator should operate, which they are each responsible for implementing correctly.
 
 > On Trello, the board is configured to only allow Admins to create and edit cards, including defining and assigning tasks to Board members. Any user can comment on cards to interact with Admins about the bounties they're managing.
 
@@ -566,9 +564,9 @@ For example:
 
 ## 4.5 Governance
 
-Admins are responsible for Governance of the Incubator which is implemented via appointing or removing Admins, or updating these Rules.
+The Governance Committee is responsible for Governance of the Incubator which is implemented via appointing or removing Admins, or updating these Rules.
 
-An Admin Quorum is required in both cases, which means that > 50% of voting Admins agree to Admin appointments / removals or changes to the Rules etc. Admins reserve the option to recuse themselves from voting by not registering a vote (within an agreed voting period) or selecting/commenting ‘Recuse’ against the vote itself.
+Governance Committee Quorum is required in both cases, which means that > 50% of voters agree to Admin and Governance Committee appointments / removals or changes to the Rules etc. Governanace Committee members reserve the option to recuse themselves from voting by not registering a vote (within an agreed voting period) or selecting/commenting ‘Recuse’ against the vote itself.
 
 # 5 Funds
 
@@ -576,7 +574,7 @@ An Admin Quorum is required in both cases, which means that > 50% of voting Admi
 
 The App is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis, with all spending of those funds commissioned and tracked via Tasks owned by Admins within the Bounty System itself and settled via transactions on the Dash blockchain that anyone can verify.
 
-The amount requested might vary to target the general scale and buffer that Admins and the [PO](#53-proposal-owner) feel the Incubator should aim to spend, but not to deliver specific projects or milestones as there is no centralized planning to do so in the Incubator.
+The amount requested might vary to target the general scale and buffer that the Governance Committee feel the Incubator should aim to spend, but not to deliver specific projects or milestones as there is no centralized planning to do so in the Incubator.
 
 When certain projects arise that do require specific additional funding, individual proposals should be raised detailing the value proposition and estimated costs of those projects individually.
 
@@ -584,19 +582,19 @@ When certain projects arise that do require specific additional funding, individ
 
 All funds will be received to the published [Incubator Wallet](#63-accounting) address(s) and will be pooled across proposals as a single rolling-budget available to Admins to allocate to Bounties.
 
-The funds the PO requests from the Dash Network are purely to increase the Incubator Wallet and increase the overall budget available to Admins to spend.
+The funds the Governance Committee requests from the Dash Network are purely to increase the Incubator Wallet and increase the overall budget available to Admins to spend.
 
 Incubator is a pure-Dash fund meaning that rewards are denominated only in Dash.  Therefore any fluctuations in the fiat price of Dash will only reflect the pricing of new [Tasks](#25-tasks) by Admins and prior agreements made in Dash are not necessarily renegotiated or adjusted.
 
-## 5.3 Proposal Owner
+## 5.3 Governance Committee
 
-The Proposal Owner (PO) is the [Admin](#4-admins) user who creates [Proposals](#64-proposals) to the Dash Network for and on behalf of the Incubator, and handles (but isn't liable for) custody and transactions of the Dash received on behalf of Admins.
+The Governance Committee are the [Admins](#4-admins) who create [Proposals](#64-proposals) to the Dash Network for and on behalf of the Incubator, Govern the Incubator by voting and handle (but aren't liable for) custody and transactions of the Dash received on behalf of Admins.
 
-The PO agrees to use funds solely for the purposes of awarding [Task Claims](#26-claims) that were approved by Admins and are inline with the Rules in this document.
+The Governance Committee agree to use funds solely for the purposes of awarding [Task Claims](#26-claims) that were approved by Admins and are inline with the Rules in this document.
 
-The PO role is intended to be a temporary role, until the Incubator can be implemented as a fully decentralized dApp in future, with Proposal Dash awarded to a Contract on Dash Platform and distributed autonomously using code.
+Governance Committee roles are intended to be temporary roles until the Incubator can be implemented as a fully decentralized dApp in future, with Proposal Dash awarded to a Contract on Dash Platform and distributed autonomously using code.
 
-Before the full dApp implementation, and before fully decentralized mechanisms are innovated to ensure that all users are adhering to these Rules and operations of the App are as efficient as possible, the PO is currently granted some additional rights equivalent to a 'super-user' within the App as follows:
+Before the full dApp implementation, and before fully decentralized mechanisms are innovated to ensure that all users are adhering to these Rules and operations of the App are as efficient as possible, the Governance Committee are currently granted some additional rights equivalent to 'super-users' within the App as follows:
 
  - Appoint or transfer Primary or Secondary Admin positions on a Bounty
  - Pause/Unpause a Bounty or some of the Tasks
@@ -605,11 +603,11 @@ Before the full dApp implementation, and before fully decentralized mechanisms a
  - Mediate updates to these Rules
  - Any other actions to enforce adherence to these rules
 
- If the Proposal Owner needs to exercise any of these rights, they must leave a comment (e.g. on Trello or Github depending on the action) detailing the action and explaining the reasons as to why an action was taken.
+ If the Governance Committee need to exercise any of these rights, they must leave a comment (e.g. on Trello or Github depending on the action) detailing the action and explaining the reasons as to why an action was taken.
 
-The Proposal Owner can be replaced through a vote for a new Admin to be the PO as per the voting criteria defined in Section 4.5 - Governance.  If that occurs, the newly elected PO will assume all PO responsibilities and the existing PO will transfer all funds from the Proposal Wallet to a wallet controlled by the new PO.
+Governance Committee members can be added & removed through voting as per the voting criteria defined in Section 4.5 - Governance. If a Governance Committee member is removed, any heldresponsibilities/funds will be transferred to another Governance Committee member. 
 
-> The Proposal Owner role is incentivized by a [Service Bounty](https://trello.com/c/pjOIKxyc/100-dash-incubator-proposal-owner) defined within the Incubator app itself.
+> Governance Committee roles are incentivized by [Service Bounties] defined within the Incubator app itself.
 
 ## 5.4 Auditing
 
