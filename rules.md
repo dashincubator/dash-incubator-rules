@@ -86,7 +86,7 @@ There are several levels to classification of Incubator App users as follows:
 - Members - any user who has signed up to create an account on the App
 - [Contributors](#3-contributing) - Members who create output for the Incubator
 - [Admins](#4-admins) - Members with rights to create and manage Bounties, and earn commission from Task rewards
-- Governance Committee - Admins who are designated to manage funds, for voting and to contribute towards raising Proposals to the Dash network on behalf of the Incubator 
+- [Governance Committee](#53-governance-committee) - Admins who are designated to manage funds, for voting and to contribute towards raising Proposals to the Dash network on behalf of the Incubator 
 
 > Currently all Members can be found as the members of our [Trello board](https://trello.com/b/FPJzDcok/dash-incubator-app)
 
