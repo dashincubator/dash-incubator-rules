@@ -352,13 +352,13 @@ Admins must ensure the following information is correctly configured on new Boun
 4. The Description text reflects the Value Proposition of the related Concept
 5. The Concept creator is listed as a [Stakeholder](#25-bounty-stakeholders)
 
-> In Trello, Bounty ownership is designated by assigning the Admin user as the Member of the card on the top left below the card title.  When two Admins are assigned to the card, the assistant Admin is designated by putting their Trello username into the assistant Admin field on the card.
+> After creating the card in Trello the Strategist should assign themselves as the Member of the card on the top left below the card title.  Assistant Admins are designated by putting their Trello username into the assistant Admin field on the card.
 
 ### 4.2.2 Bounty Ownership
 
 The Strategist who created a Bounty is considered the owner of that Bounty and has priority rights to edit the Bounty's fields, define Tasks and process resulting Claims, and change the Bounty's [Status](#23-bounty-status). The Strategist may transfer ownership to another Strategist at any time.
 
-> In Trello, Ownership is determined by the Admin who is a Member of the Card and who's username isn't specified in the assistant Admin field.  
+> In Trello, Ownership is determined by the Strategist who is a Member of the Card.  There should only be one Strategist as a member on the card.
 
 ### 4.2.3 Assistant Admins
 
@@ -378,7 +378,7 @@ The due-date is the date whereby if a [Claim](#26-claims) is not made for the Ta
 >1. A Task number, which is the sequential number of the Task in the relevant Checklist
 >2. A Description, summarising the broad requirements by a short definition is needed, and a link to a Specification to provide further detail if needed.
 >3. An amount of Dash for the Reward.  This can be [negotiated](#432-pricing-tasks) between the Admin and prospective users
->5. A due-date and Task assignee
+>4. A due date and Task assignee
 >
 > This information should be entered into the Task description in the following format:
 >
@@ -428,8 +428,6 @@ Ultimately, decisions on whether some output meets the requirements specified in
 
 Admins are rewarded with a commission based on approved task claims.  In addition, the Lead Strategist is awarded with a commission based on delegated budgets.
 
-### 4.4.1 Strategist Rewards
-
 Each quarter all Strategists submit a proposal with that quarter's monthly budget request to the Lead Strategist.  The Lead Strategist uses this as a basis for their request from the Incubator general budget as well as for how much to request from the network.  Admins are rewarded as follows:
 
 - The Lead Strategist is awarded a [commission](#441-commissions) on approved Strategist budgets.
@@ -440,7 +438,7 @@ Sample requests and reward calculations are shown in the [Incubator Budget Model
 
 Current approved reward values are found in the [Price List](#27-rewards) and [commission table](#441-commissions).
 
-Admins can assign, complete, and claim Bounty Tasks for themselves, provided they carry out this process as usual and explictily assign themselves to the task for clear auditing purposes.
+Strategists can assign, complete, and claim Bounty Tasks for themselves, provided they carry out this process as usual and explictily assign themselves to the task for clear auditing purposes.
 
 Commission rewards don't require formal claims, they are implicit claims recorded with their associated work Tasks in the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0).
 
@@ -452,7 +450,7 @@ Note that Admins can also opt to decline rewards by creating a [Null Claim](#341
 
 <table>
   <tr>
-   <td><strong># of Claims Approved</strong>
+   <td><strong>Role</strong>
    </td>
    <td><strong>Commission Rate</strong>
    </td>
