@@ -4,7 +4,7 @@ layout: default-rules
 ---
 View [RULES HISTORY](https://github.com/dashincubator/dash-incubator-app/commits/master/rules.md)
 
-# Dash Incubator Rules V3.0
+# Dash Incubator Rules v3.0.0
 
 # Contents
 
