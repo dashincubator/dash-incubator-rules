@@ -61,7 +61,7 @@ There are several types of Incubator users, as follows:
 - Users - anyone who accesses the Incubator or its underlying data
 - Members - any user who has signed up to the Incubator
 - [Contributors](#3-contributing) - Members who create output for the Incubator
-- [Admins](#4-admins) - Members with rights to create and manage Bounties
+- [Admins](#4-admins) - Members with rights to manage Bounties accepted by Strategists
 - [Strategists](#46-strategists) - Admins who manage and report on Budgets
 - [Lead Strategist](#47-lead-strategist) - The strategist who raises Proposals to the Dash network on behalf of the Incubator 
 
@@ -293,7 +293,7 @@ Once you have completed the work for a Task you can make a [Claim](#26-claims) f
 2. Link to any deploy links relevant to the output (e.g. a URL for a website)
 3. Specify a valid Dash address to receive the reward, or set to [NULL](#341-null-claims) to decline the reward.
 
-Once your Claim has been created it will [processed](#434-processing-task-claims) by an admin.
+Once your Claim has been created it will be [processed](#434-processing-task-claims) by an admin.
 
 > To create a Claim on Trello, leave a comment on the Bounty's [Trello Card](https://trello.com/b/FPJzDcok/dash-incubator-app) specifying the number and type of the Task you are claiming, along with the source links and your Dash address
 
@@ -370,7 +370,7 @@ The Strategist can optionally appoint an assistant Admin to the Bounty, enabling
 
 ### 4.3.1 Creating Tasks
 
-Admins can create [Tasks](#25-tasks) on any Bounty that they own or are an Assistant Admin on.  When creating a Task, the Admin sets the Description, which must provide enough information to allow a Contributor to complete the work, either in the description itself or by linking a Specification.
+Admins can create [Tasks](#25-tasks) on any Bounty that they are an Assistant Admin on.  When creating a Task, the Admin sets the Description, which must provide enough information to allow a Contributor to complete the work, either in the description itself or by linking a Specification.
 
 The due-date is the date whereby if a [Claim](#26-claims) is not made for the Task, the Admin has the option to cancel the task or cancel any reservation at the Admin's discretion.
 
@@ -498,6 +498,8 @@ The Strategic Committee is responsible to:
 
 Simple majority support is required for any of the above, meaning >50% of voting Strategists.  Strategists may recuse themselves from voting by not registering a vote (within an agreed voting period) or selecting/commenting ‘Recuse’ against the vote itself.
 
+The [Lead Strategist](#47-lead-strategist) can be replaced by masternode approval through a 1 DASH superblock proposal where the proposed new Lead Strategist is named and proves control over the proposal payout address.  The normal passing criteria for funding proposals must be achieved to be considered valid.  If that occurs, all funds under the Lead Strategist's control must be transferred to the address given in the proposal.  The new Lead Strategist assumes the role upon receipt of those funds.
+
 ## 4.6 Strategists
 
 Strategists are [Admins](#4-admins) who define and execute strategies for achieving the Incubator's [mission](#11-mission) and [vision](#12-dash-vision).  They ensure that the Incubator as a whole is delivering value to the Dash network.
@@ -520,8 +522,6 @@ The Lead Strategist may also carry out the following:
 
  - Promote Admins to Strategists.
  - Approve or reject Strategist budget requests.
-
-The Lead Strategist can be replaced by masternode approval through a 1 DASH superblock proposal where the proposed new Lead Strategist is named and proves control over the proposal payout address.  The normal passing criteria for funding proposals must be achieved to be considered valid.  If that occurs, all funds under the Lead Strategist's control must be transferred to the address given in the proposal.  The new Lead Strategist assumes the role upon receipt of those funds.
 
 # 5 Funds
 
@@ -584,7 +584,7 @@ As a guideline, the following aspects of work are key areas to ensure the Rules 
 
  - Admins are pricing work fairly
  - Admins are interpreting the rules effectively
- - Concepts being approved are inline with our [Mission](#11-mission) and [Vision](#12-dash-vision)
+ - Approved concepts are are inline with our [Mission](#11-mission) and [Vision](#12-dash-vision)
  - Quality of output is sufficient for rewards
  - Task deadlines and due dates are being managed effectively
 
