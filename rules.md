@@ -358,7 +358,7 @@ Admins must ensure the following information is correctly configured on new Boun
 
 The Strategist who created a Bounty is considered the owner of that Bounty and has priority rights to edit the Bounty's fields, define Tasks and process resulting Claims, and change the Bounty's [Status](#23-bounty-status). The Strategist may transfer ownership to another Strategist at any time.
 
-> In Trello, Ownership is determined by the Strategist who is a Member of the Card.  There should only be one Strategist as a member on the card.
+> In Trello, Ownership is determined by the Strategist who is the Member of the Card (there should only be one).
 
 ### 4.2.3 Assistant Admins
 
