@@ -538,6 +538,8 @@ The Incubator is funded from a series of [Proposals](#64-proposals) submitted to
 
 The amount requested might vary to target the general scale and buffer that Strategists, including the [Lead Strategist](#47-lead-strategist), feel the Incubator needs.  When certain projects arise that require significant funding, individual proposals should be raised detailing the value proposition and estimated costs of those projects individually.
 
+Anyone can request funds from the Incubator's general fund (but not individual [Strategist reserves](#522-strategist-budgets)) by submitting a proposal from the Dash Network with a specific requested amount.  If such a proposal passes with the normal 10% supermajority required for Dash Network funding, the Lead Strategist will send the requested amount to the proposal's payout address.  The amount requested may not be altered during the voting process.
+
 ### 5.1.2 Strategist Proposals
 
 Each Strategist submits quarterly proposals to the Lead Strategist to increase their budgets.  The content and purpose of this proposal is similar to the Lead Strategist's Network Proposal.  It should report project updates, value propositions, budget spending, quarterly priorities, and anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
