@@ -19,7 +19,7 @@ View [RULES HISTORY](https://github.com/dashincubator/dash-incubator-app/commits
 
 [Dash Incubator](https://dashincubator.app/) is an open-source, blockchain-funded organization that redistributes [Dash](https://www.dash.org/) issued from [Superblocks](https://docs.dash.org/en/stable/governance/understanding.html) to users who produce open-source output that supports our [Mission](#11-mission) and [Vision](#12-dash-vision).
 
-The Incubator uses a [Bounty](#2-bounties) system to fund and manage the end-to-end delivery of a wide variety of projects [proposed](#21-concepts) by the community, ranging from small [jobs](#22-bounty-types) such as bug bounties, to ongoing [services](#22-bounty-types) such as promotions or infrastructure provision, to mid-size development [projects](#22-bounty-types) such as dApps and development tools, to large development [programmes](#22-bounty-types) involving multiple products that need to be developed and launched together.
+The Incubator uses a [Bounty](#2-bounties) system to fund and manage the end-to-end delivery of a wide variety of projects [proposed](#21-concepts) by the community, ranging from small [jobs](#22-bounty-types) such as bug bounties, to ongoing [services](#22-bounty-types) such as promotions or infrastructure provision, to mid-size development [projects](#22-bounty-types) such as decentralized apps and development tools, to large development [programmes](#22-bounty-types) involving multiple products that need to be developed and launched together.
 
 Fund allocation and management is decentralized across [Admin](#4-admins) users and [Strategists](#46-strategists).
 
@@ -83,7 +83,7 @@ The authoritative source for the Rules are contained in a single document hosted
 
 The Incubator is not a legal entity and as such doesn’t own any assets, including any rights to any output, nor does the Incubator apply any restrictions on contributor's usage of their own Task output, apart from the requirement that all output must be open-sourced under MIT license.
 
-The only funding the Incubator receives is in the form of Dash tokens issued directly from the Dash blockchain, which it redistributes to users who provide verifiable open-source output for predefined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
+The only funding the Incubator receives is in the form of Dash issued directly from the Dash blockchain, which it redistributes to users who provide verifiable open-source output for predefined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
 
 The Incubator does not handle, hold or pay fiat currency and all rewards are issued in Dash tokens as incentives for creating some open-source output, at the sole discretion of Incubator Admins, and without any agreement or action to purchase or procure any assets, intellectual property or labor.
 
@@ -105,7 +105,7 @@ Concepts are proposals for some work that the Incubator should fund as a Bounty,
 
 When a Bounty is created from a [Concept](#21-concepts) by a [Strategist](#46-strategists), they assign one of four types for the new Bounty that determine how work will be structured:
 
-- **Projects** develop products such as a decentralized apps built on Dash (dApps), tools for the community or improvements to the Dash Protocol itself.
+- **Projects** develop products such as a decentralized apps built on Dash , tools for the community or improvements to the Dash Protocol itself.
 - **Services** provide ongoing work that involves provision of some service, such as website hosting, code maintenance, or a recurring requirement for servicing the Incubator itself.
 - **Jobs** are one-off pieces of work, such as finding bugs or fixing a github issue.
 - **Programmes** are collections of Project, Service or Job Bounties that coordinate large pieces of work.
