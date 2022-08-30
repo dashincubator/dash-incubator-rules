@@ -189,7 +189,7 @@ Once a Task Claim is approved by an Admin, the Task Reward will be awarded to th
 
 ## 2.7 Rewards
 
-The Incubator is a pure Dash fund, meaning all rewards are priced and paid in DASH units.
+The Incubator is a pure Dash fund, meaning all rewards are priced and paid in Dash.
 
 Admins can price tasks up to the max price. Strategists can claim a commission up to the max commission listed in the table below. They can either keep the full claimed [reward](#44-admin-rewards) or split it with a non-Strategist admin who has assisted in the administration process.
 
