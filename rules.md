@@ -105,7 +105,7 @@ Concepts are proposals for some work that the Incubator should fund as a Bounty,
 
 When a Bounty is created from a [Concept](#21-concepts) by a [Strategist](#46-strategists), they assign one of four types for the new Bounty that determine how work will be structured:
 
-- **Projects** develop products such as a decentralized apps built on Dash , tools for the community or improvements to the Dash Protocol itself.
+- **Projects** develop products such as decentralized apps built on Dash, tools for the community, or improvements to the Dash Protocol itself.
 - **Services** provide ongoing work that involves provision of some service, such as website hosting, code maintenance, or a recurring requirement for servicing the Incubator itself.
 - **Jobs** are one-off pieces of work, such as finding bugs or fixing a github issue.
 - **Programmes** are collections of Project, Service or Job Bounties that coordinate large pieces of work.
