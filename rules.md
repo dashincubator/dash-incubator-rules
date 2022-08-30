@@ -23,7 +23,7 @@ The Incubator uses a [Bounty](#2-bounties) system to fund and manage the end-to-
 
 Fund allocation and management is decentralized across [Admin](#4-admins) users and [Strategists](#46-strategists).
 
-The Incubator is a [Dash Funded Organization (DFO)](#14-full-transparency).  All internal operations of the Incubator are conducted in the public domain at all times.  This includes how work is proposed, selected, specified, developed, tested, approved, which users are completing or managing work, what rewards they are allocating or receiving and all internal decision making and governance.
+The Incubator is a [Dash Funded Organization (DFO)](#14-full-transparency). All internal operations of the Incubator are conducted in the public domain at all times. This includes how work is proposed, selected, specified, developed, tested, approved, which users are completing or managing work, what rewards they are allocating or receiving and all internal decision making and governance.
 
 All work produced by the Incubator, known as Output, is open-source and licensed under MIT License.
 
@@ -39,7 +39,7 @@ Our vision is to grow Dash to become the number one cryptocurrency for everyday 
 
 ## 1.3 Strategy
 
-Strategy in the Incubator is defined by each individual Incubator [Strategist](#46-strategists).  Each Strategist aims to achieve our overall [Mission](#11-mission) and [Dash Vision](#12-dash-vision).
+Strategy in the Incubator is defined by each individual Incubator [Strategist](#46-strategists). Each Strategist aims to achieve our overall [Mission](#11-mission) and [Dash Vision](#12-dash-vision).
 
 The Incubator's roadmap is the collection of Strategist [Bounty](#2-bounties) priorities as stated in the most recent [Proposal](#64-proposals).
 
@@ -85,7 +85,7 @@ The Incubator is not a legal entity and as such doesn’t own any assets, includ
 
 The only funding the Incubator receives is in the form of Dash issued directly from the Dash blockchain, which it redistributes to users who provide verifiable open-source output for predefined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
 
-The Incubator does not handle, hold or pay fiat currency and all rewards are issued in Dash tokens as incentives for creating some open-source output, at the sole discretion of Incubator Admins, and without any agreement or action to purchase or procure any assets, intellectual property or labor.
+The Incubator does not handle, hold or pay fiat currency. All rewards are issued in Dash as incentives for creating some open-source output, at the sole discretion of Incubator Admins, and without any agreement or action to purchase or procure any assets, intellectual property or labor.
 
 # 2 Bounties
 
@@ -99,7 +99,7 @@ All Bounties start as a Concept that is [proposed](#31-proposing-concepts) to th
 
 Concepts are proposals for some work that the Incubator should fund as a Bounty, that provide enough detail about the value proposition and requirements of the work to enable Contributors to complete it.
 
-[Strategists](#46-strategists) create a Bounty for each Concept they accept that they then own, meaning they have the rights to manage and earn commission from its delivery.  They [accept](#434-processing-task-claims) Concepts that meet our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis.  Once accepted, the user who created the Concept is assigned as a [Stakeholder](#25-bounty-stakeholders) of the corresponding bounty.
+[Strategists](#46-strategists) create a Bounty for each Concept they accept that they then own, meaning they have the rights to manage and earn commission from its delivery. They [accept](#434-processing-task-claims) Concepts that meet our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis. Once accepted, the user who created the Concept is assigned as a [Stakeholder](#25-bounty-stakeholders) of the corresponding bounty.
 
 ## 2.2 Bounty Types
 
@@ -110,7 +110,7 @@ When a Bounty is created from a [Concept](#21-concepts) by a [Strategist](#46-st
 - **Jobs** are one-off pieces of work, such as finding bugs or fixing a github issue.
 - **Programmes** are collections of Project, Service or Job Bounties that coordinate large pieces of work.
 
-> All Bounties in the Incubator are represented by a Card on our [Trello Board](#https://trello.com/b/FPJzDcok/dash-incubator-app). The Bounty's type is represented by the column the Card is in on the Board.  Meta Bounties are shown with the pink label on the Card's front cover.
+> All Bounties in the Incubator are represented by a Card on our [Trello Board](#https://trello.com/b/FPJzDcok/dash-incubator-app). The Bounty's type is represented by the column the Card is in on the Board. Meta Bounties are shown with the pink label on the Card's front cover.
 
 ## 2.3 Bounty Status
 
@@ -191,7 +191,7 @@ Once a Task Claim is approved by an Admin, the Task Reward will be awarded to th
 
 The Incubator is a pure Dash fund, meaning all rewards are priced and paid in DASH units.
 
-Admins can price tasks up to the max price.  Strategists can claim a commission up to the max commission listed in the table below.  They can either keep the full claimed [reward](#44-admin-rewards) or split it with a non-Strategist admin who has assisted in the administration process.
+Admins can price tasks up to the max price. Strategists can claim a commission up to the max commission listed in the table below. They can either keep the full claimed [reward](#44-admin-rewards) or split it with a non-Strategist admin who has assisted in the administration process.
 
 ### 2.7.1 Price List
 
@@ -264,7 +264,7 @@ Any [Strategist](#46-strategists) can [accept](#434-processing-task-claims) a Co
 
 The [Concept Reward](#271-price-list) is paid to the Dash address listed in the Concept when accepted.
 
->- To propose a Concept, add a comment on the [New Concept Card](https://trello.com/c/6XAuy9DW/94-request-new-concept) on Trello.  
+>- To propose a Concept, add a comment on the [New Concept Card](https://trello.com/c/6XAuy9DW/94-request-new-concept) on Trello. 
 >- To chat with Admins about a Concept or its acceptance, join the [DashDevs Discord](https://discord.gg/mU79ZWx) and ask on the #dash-incubator channel.
 
 ## 3.2 Completing Job Tasks
@@ -275,7 +275,7 @@ To claim a reward on a Job task, use the [Claims process](#34-claiming-tasks)
 
 ## 3.3 Reserving Tasks
 
-Any tasks other than Jobs can be reserved.  This means that you can agree with the Task's Admin to have exclusive rights to claim the Task until the due date.  
+Any tasks other than Jobs can be reserved. This means that you can agree with the Task's Admin to have exclusive rights to claim the Task until the due date. 
 
 To reserve a task, leave a comment for the Admin of the Bounty that the Task is a part of, so that they can assign the task to you, and/or discuss the Task details and negotiate the reward.
 
@@ -342,7 +342,7 @@ Strategists must judge that Concepts they wish to accept meet all of the followi
 
 ### 4.2.1 Creating Bounties
 
-Bounties are created exclusively by Strategists who [Accept](#434-processing-task-claims) a community-submitted Concept and consequently receive [Ownership](#422-bounty-ownership) of the Bounty.  Strategists can either administer the bounty themselves, or delegate administrative work to a separate Admin.
+Bounties are created exclusively by Strategists who [Accept](#434-processing-task-claims) a community-submitted Concept and consequently receive [Ownership](#422-bounty-ownership) of the Bounty. Strategists can either administer the bounty themselves, or delegate administrative work to a separate Admin.
 
 Admins must ensure the following information is correctly configured on new Bounties that they create:
 
@@ -352,7 +352,7 @@ Admins must ensure the following information is correctly configured on new Boun
 4. The Description text reflects the Value Proposition of the related Concept
 5. The Concept creator is listed as a [Stakeholder](#25-bounty-stakeholders)
 
-> After creating the card in Trello the Strategist should assign themselves as the Member of the card on the top left below the card title.  Assistant Admins are designated by putting their Trello username into the assistant Admin field on the card.
+> After creating the card in Trello the Strategist should assign themselves as the Member of the card on the top left below the card title. Assistant Admins are designated by putting their Trello username into the assistant Admin field on the card.
 
 ### 4.2.2 Bounty Ownership
 
@@ -362,7 +362,7 @@ The Strategist who created a Bounty is considered the owner of that Bounty and h
 
 ### 4.2.3 Assistant Admins
 
-The Strategist can optionally appoint an assistant Admin to the Bounty, enabling a maximum of two Admins to manage a bounty at one time. Assistant admins can edit the Bounty's details and carry out all administrative actions, but the Bounty is owned by the Strategist.  Assistant Admin rewards are described in [Admin Rewards](#44-admin-rewards).
+The Strategist can optionally appoint an assistant Admin to the Bounty, enabling a maximum of two Admins to manage a bounty at one time. Assistant admins can edit the Bounty's details and carry out all administrative actions, but the Bounty is owned by the Strategist. Assistant Admin rewards are described in [Admin Rewards](#44-admin-rewards).
 
 > In Trello, Bounty Owners can appoint an assistant on a Card by entering their name in the assistant Admin field and assigning them as a Member of the Card. 
 
@@ -370,14 +370,14 @@ The Strategist can optionally appoint an assistant Admin to the Bounty, enabling
 
 ### 4.3.1 Creating Tasks
 
-Admins can create [Tasks](#25-tasks) on any Bounty that they are an Assistant Admin on.  When creating a Task, the Admin sets the Description, which must provide enough information to allow a Contributor to complete the work, either in the description itself or by linking a Specification.
+Admins can create [Tasks](#25-tasks) on any Bounty that they are an Assistant Admin on. When creating a Task, the Admin sets the Description, which must provide enough information to allow a Contributor to complete the work, either in the description itself or by linking a Specification.
 
 The due-date is the date whereby if a [Claim](#26-claims) is not made for the Task, the Admin has the option to cancel the task or cancel any reservation at the Admin's discretion.
 
 > When defining a Task in Trello, the Admin will chose the correct Checklist for the task type, and specify the following information:
 >1. A Task number, which is the sequential number of the Task in the relevant Checklist
 >2. A Description, summarising the broad requirements by a short definition is needed, and a link to a Specification to provide further detail if needed.
->3. An amount of Dash for the Reward.  This can be [negotiated](#432-pricing-tasks) between the Admin and prospective users
+>3. An amount of Dash for the Reward. This can be [negotiated](#432-pricing-tasks) between the Admin and prospective users
 >4. A due date and Task assignee
 >
 > This information should be entered into the Task description in the following format:
@@ -426,15 +426,15 @@ Ultimately, decisions on whether some output meets the requirements specified in
 
 ## 4.4 Admin Rewards
 
-Admins are rewarded with a commission based on approved task claims.  In addition, the Lead Strategist is awarded with a commission based on delegated budgets.
+Admins are rewarded with a commission based on approved task claims. In addition, the Lead Strategist is awarded with a commission based on delegated budgets.
 
-Each quarter all Strategists submit a proposal with that quarter's monthly budget request to the Lead Strategist.  The Lead Strategist uses this as a basis for their request from the Incubator general budget as well as for how much to request from the network.  Admins are rewarded as follows:
+Each quarter all Strategists submit a proposal with that quarter's monthly budget request to the Lead Strategist. The Lead Strategist uses this as a basis for their request from the Incubator general budget as well as for how much to request from the network. Admins are rewarded as follows:
 
 - The Lead Strategist is awarded a [commission](#441-commissions) on approved Strategist budgets.
 - Strategists (including the Lead Strategist) are awarded a [commission](#441-commissions) on approved tasks on Bounties they own.
 - Assistant Admins, when used, are awarded a portion of the Strategist commission.
 
-Sample requests and reward calculations are shown in the [Incubator Budget Model Spreadsheet](https://docs.google.com/spreadsheets/d/1Utke_pYRNeqxygF1KsAakI3hwP0IX68QUDujpthIlq8/edit#gid=201630329).  Note that the spreadsheet model and values can change over time and may not represent any real particular budget depending on when the sheet is accessed.
+Sample requests and reward calculations are shown in the [Incubator Budget Model Spreadsheet](https://docs.google.com/spreadsheets/d/1Utke_pYRNeqxygF1KsAakI3hwP0IX68QUDujpthIlq8/edit#gid=201630329). Note that the spreadsheet model and values can change over time and may not represent any real particular budget depending on when the sheet is accessed.
 
 Current approved reward values are found in the [Price List](#27-rewards) and [commission table](#441-commissions).
 
@@ -485,7 +485,7 @@ Note that Admins can also opt to decline rewards by creating a [Null Claim](#341
 
 ## 4.5 Governance
 
-[Strategists](#46-strategists) are responsible for governance and the strategic direction of the Incubator.  They collectively form a group referred to as the strategic committee.
+[Strategists](#46-strategists) are responsible for governance and the strategic direction of the Incubator. They collectively form a group referred to as the strategic committee.
 
 The Strategic Committee is responsible to:
 
@@ -494,15 +494,15 @@ The Strategic Committee is responsible to:
 - Remove any Admin other than the [Lead Strategist](#47-lead-strategist).
 - Appoint a new Lead Strategist when the current Lead Strategist steps down.
 
-Simple majority support is required for any of the above, meaning >50% of voting Strategists.  Strategists may recuse themselves from voting by not registering a vote (within an agreed voting period) or selecting/commenting ‘Recuse’ against the vote itself.
+Simple majority support is required for any of the above, meaning >50% of voting Strategists. Strategists may recuse themselves from voting by not registering a vote (within an agreed voting period) or selecting/commenting ‘Recuse’ against the vote itself.
 
-The [Lead Strategist](#47-lead-strategist) can be replaced by masternode approval through a 1 DASH superblock proposal where the proposed new Lead Strategist is named and proves control over the proposal payout address.  The normal passing criteria for funding proposals must be achieved to be considered valid.  If that occurs, all funds under the Lead Strategist's control must be transferred to the address given in the proposal.  The new Lead Strategist assumes the role upon receipt of those funds.
+The [Lead Strategist](#47-lead-strategist) can be replaced by masternode approval through a 1 DASH superblock proposal where the proposed new Lead Strategist is named and proves control over the proposal payout address. The normal passing criteria for funding proposals must be achieved to be considered valid. If that occurs, all funds under the Lead Strategist's control must be transferred to the address given in the proposal. The new Lead Strategist assumes the role upon receipt of those funds.
 
 ## 4.6 Strategists
 
-Strategists are [Admins](#4-admins) who define and execute strategies for achieving the Incubator's [mission](#11-mission) and [vision](#12-dash-vision).  They ensure that the Incubator as a whole is delivering value to the Dash network.
+Strategists are [Admins](#4-admins) who define and execute strategies for achieving the Incubator's [mission](#11-mission) and [vision](#12-dash-vision). They ensure that the Incubator as a whole is delivering value to the Dash network.
 
-Each Strategist submits a quarterly proposal to the [Lead Strategist](#47-lead-strategist) identifying priorites, updates, budget requests, etc related to the projects they own.  The Lead Strategist uses these proposals to help form the Incubator's main [funding proposal](#51-proposals).
+Each Strategist submits a quarterly proposal to the [Lead Strategist](#47-lead-strategist) identifying priorites, updates, budget requests, etc related to the projects they own. The Lead Strategist uses these proposals to help form the Incubator's main [funding proposal](#51-proposals).
 
 Strategists may also carry out the following:
 
@@ -523,7 +523,7 @@ The Lead Strategist may also carry out the following:
 
 # 5 Funds
 
-The Incubator is fully transparent about all incoming and all outgoing funds.  Funds are received through proposals, managed through budgets, and spent through Bounties.
+The Incubator is fully transparent about all incoming and all outgoing funds. Funds are received through proposals, managed through budgets, and spent through Bounties.
 
 ## 5.1 Proposals
 
@@ -534,15 +534,15 @@ There are two types of proposals in the Incuabtor:
 
 ### 5.1.1 Network Proposals
 
-The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis.  The Lead Strategist submits this proposal, which is informed by the collection of Strategist Proposals.
+The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis. The Lead Strategist submits this proposal, which is informed by the collection of Strategist Proposals.
 
-The amount requested might vary to target the general scale and buffer that Strategists, including the [Lead Strategist](#47-lead-strategist), feel the Incubator needs.  When certain projects arise that require significant funding, individual proposals should be raised detailing the value proposition and estimated costs of those projects individually.
+The amount requested might vary to target the general scale and buffer that Strategists, including the [Lead Strategist](#47-lead-strategist), feel the Incubator needs. When certain projects arise that require significant funding, individual proposals should be raised detailing the value proposition and estimated costs of those projects individually.
 
-Anyone can request funds from the Incubator's general fund (but not individual [Strategist reserves](#522-strategist-budgets)) by submitting a proposal to the Dash Network with a specific requested amount.  If such a proposal passes with the normal 10% supermajority required for Dash Network funding, the Lead Strategist will send that amount to the proposal's payout address.  The amount requested may not be altered during the voting process.
+Anyone can request funds from the Incubator's general fund (but not individual [Strategist reserves](#522-strategist-budgets)) by submitting a proposal to the Dash Network with a specific requested amount. If such a proposal passes with the normal 10% supermajority required for Dash Network funding, the Lead Strategist will send that amount to the proposal's payout address. The amount requested may not be altered during the voting process.
 
 ### 5.1.2 Strategist Proposals
 
-Each Strategist submits quarterly proposals to the Lead Strategist to increase their budgets.  The content and purpose of this proposal is similar to the Lead Strategist's Network Proposal.  It should report project updates, value propositions, budget spending, quarterly priorities, and anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
+Each Strategist submits quarterly proposals to the Lead Strategist to increase their budgets. The content and purpose of this proposal is similar to the Lead Strategist's Network Proposal. It should report project updates, value propositions, budget spending, quarterly priorities, and anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
 
 ## 5.2 Budgets
 
@@ -555,13 +555,13 @@ There are two types of budgets in the Incuabtor:
 
 Network proposal funds are received to the published [Incubator Wallet](#63-accounting) address(es) and pooled across proposals as a rolling budget available to Strategist budgets.
 
-The Incubator is a pure Dash fund meaning that rewards are denominated only in Dash.  Therefore any fluctuations in the fiat price of Dash will only reflect the pricing of new [Tasks](#25-tasks) by Admins and prior agreements made in Dash are not necessarily renegotiated or adjusted.
+The Incubator is a pure Dash fund meaning that rewards are denominated only in Dash. Therefore any fluctuations in the fiat price of Dash will only reflect the pricing of new [Tasks](#25-tasks) by Admins and prior agreements made in Dash are not necessarily renegotiated or adjusted.
 
 ### 5.2.2 Strategist Budgets
 
-Approved Strategist proposal funds are sent by the Lead Strategist to a distinct address for each Strategist.  These addresses are currently controlled by the Lead Strategist, but when the system matures and Strategists agree to it, the Lead Strategist will instead send funds to addresses each Strategist controls and these rules and processes will be updated accordingly.
+Approved Strategist proposal funds are sent by the Lead Strategist to a distinct address for each Strategist. These addresses are currently controlled by the Lead Strategist, but when the system matures and Strategists agree to it, the Lead Strategist will instead send funds to addresses each Strategist controls and these rules and processes will be updated accordingly.
 
-Each Strategist's published address(es) carries funds in a rolling budget, similar to the general budget.  Strategists have full autonomy over their budget spending, so long as they serve the Incubator's vision and mission, and are accounted for according to the [auditing rules](#53-auditing).
+Each Strategist's published address(es) carries funds in a rolling budget, similar to the general budget. Strategists have full autonomy over their budget spending, so long as they serve the Incubator's vision and mission, and are accounted for according to the [auditing rules](#53-auditing).
 
 When a Strategist leaves or is removed from the Incubator their budget is returned to the General Budget.
 
@@ -578,7 +578,7 @@ All spending by the Incubator is tracked via [Task Claims](#26-claims) approved 
 
 ### 5.3.2 Auditing Work
 
-All work must be conducted inline with the Rules in this document and in the public domain.  Therefore anyone can audit how well the work being conducted in the Incubator is adhering to these rules at any time.
+All work must be conducted inline with the Rules in this document and in the public domain. Therefore anyone can audit how well the work being conducted in the Incubator is adhering to these rules at any time.
 
 As a guideline, the following aspects of work are key areas to ensure the Rules are being implemented effectively.
 
