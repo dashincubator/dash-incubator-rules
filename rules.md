@@ -99,7 +99,7 @@ All Bounties start as a Concept that is [proposed](#31-proposing-concepts) to th
 
 Concepts are proposals for some work that the Incubator should fund as a Bounty, that provide enough detail about the value proposition and requirements of the work to enable Contributors to complete it.
 
-[Strategists](#46-strategists) create a Bounty for each Concept they accept that they then own, meaning they have the rights to manage and earn commission from its delivery. They [accept](#434-processing-task-claims) Concepts that meet our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis. Once accepted, the user who created the Concept is assigned as a [Stakeholder](#25-bounty-stakeholders) of the corresponding bounty.
+[Strategists](#46-strategists) create a Bounty for each Concept they accept that they then own, meaning they have the rights to manage and earn commission from its delivery. They [accept](#434-processing-task-claims) Concepts that meet our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis. Once accepted, the user who created the Concept is assigned as a [Stakeholder](#24-bounty-stakeholders) of the corresponding bounty.
 
 ## 2.2 Bounty Types
 
@@ -350,7 +350,7 @@ Admins must ensure the following information is correctly configured on new Boun
 2. The correct [Type](#22-bounty-types) for the Bounty is selected field (either Project, Specification, Job or Programme)
 3. The Concept the Bounty was created from is linked in the Concept Doc field
 4. The Description text reflects the Value Proposition of the related Concept
-5. The Concept creator is listed as a [Stakeholder](#25-bounty-stakeholders)
+5. The Concept creator is listed as a [Stakeholder](#24-bounty-stakeholders)
 
 > After creating the card in Trello the Strategist should assign themselves as the Member of the card on the top left below the card title. Assistant Admins are designated by putting their Trello username into the assistant Admin field on the card.
 
