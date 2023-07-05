@@ -4,7 +4,7 @@ layout: default-rules
 ---
 View [RULES HISTORY](https://github.com/dashincubator/dash-incubator-app/commits/master/rules.md)
 
-# Dash Incubator Rules v3.0.0
+# Dash Incubator Rules v4.0.0
 
 # Contents
 
@@ -41,7 +41,7 @@ Our vision is to grow Dash to become the number one cryptocurrency for everyday 
 
 Strategy in the Incubator is defined by each individual Incubator [Strategist](#46-strategists). Each Strategist aims to achieve our overall [Mission](#11-mission) and [Dash Vision](#12-dash-vision).
 
-The Incubator's roadmap is the collection of Strategist [Bounty](#2-bounties) priorities as stated in the most recent [Proposal](#64-proposals).
+The Incubator's roadmap is the collection of [Bounty](#2-bounties) priorities as stated in [Proposals](#64-proposals) submitted by Incubator Strategists.
 
 ## 1.4 Full-Transparency
 
@@ -56,22 +56,22 @@ To ensure that the Incubator's processes and information remain fully open-sourc
 
 ## 1.5 Users
 
-There are several types of Incubator users, as follows:
+There are several types of Incubator users, summarized as follows:
 
-- Users - anyone who accesses the Incubator or its underlying data
-- Members - any user who has signed up to the Incubator
+- Users - Anyone who accesses the Incubator or its underlying data
+- Members - Users who have signed to the Incubator
 - [Contributors](#3-contributing) - Members who create output for the Incubator
-- [Admins](#4-admins) - Members with rights to manage Bounties accepted by Strategists
-- [Strategists](#46-strategists) - Admins who manage and report on Budgets
-- [Lead Strategist](#47-lead-strategist) - The strategist who raises Proposals to the Dash network on behalf of the Incubator 
+- [Admins](#4-admins) - Members who manage Bounties accepted by Strategists
+- [Strategists](#46-strategists) - Members with approved network proposals who accept and report on projects
+- [Lead Strategist](#47-lead-strategist) - Strategist with key responsibilites including handling funds, ensuring rules are followed, and representing the Incubator publicly
 
-> Currently all Members can be found as the members of our [Trello board](https://trello.com/b/FPJzDcok/dash-incubator-app)
+See linked sections for further detail regarding User roles.
 
 ## 1.6 Network Contract
 
 This document contains the Rules that define the terms between [Dash Incubator](#1-dash-incubator) and the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html#) for how any funding awarded to the Incubator by the Network will be used.
 
-When coupled with Incubator's [full transparency](#14-full-transparency) policy, anyone can trustlessly audit how well the Incubator is meeting the commitments of these terms in realtime, including verifying the use of all funding via the Dash blockchain itself down to a user/task level.
+When coupled with Incubator's [full transparency](#14-full-transparency) policy, anyone can audit how well the Incubator is meeting the commitments of these terms in realtime, including verifying the use of all funding via the Dash blockchain itself down to a user and task level.
 
 We refer to the transparent implementation of the terms defined in this document in return for the funding provided from Dash Network as the Network Contract.
 
@@ -83,7 +83,7 @@ The authoritative source for the Rules are contained in a single document hosted
 
 The Incubator is not a legal entity and as such doesn’t own any assets, including any rights to any output, nor does the Incubator apply any restrictions on contributor's usage of their own Task output, apart from the requirement that all output must be open-sourced under MIT license.
 
-The only funding the Incubator receives is in the form of Dash issued directly from the Dash blockchain, which it redistributes to users who provide verifiable open-source output for predefined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
+The only funding the Incubator receives is in the form of Dash issued directly from the Dash blockchain, which it redistributes to users who provide verifiable open-source output for defined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
 
 The Incubator does not handle, hold or pay fiat currency. All rewards are issued in Dash as incentives for creating some open-source output, at the sole discretion of Incubator Admins, and without any agreement or action to purchase or procure any assets, intellectual property or labor.
 
@@ -91,7 +91,7 @@ The Incubator does not handle, hold or pay fiat currency. All rewards are issued
 
 A Bounty in the Incubator means a collection of work that can be completed by contributors for a reward, such as development or promotion of Dash or of the Incubator itself.
 
-Bounties are first proposed as Concepts by the community, and there are four [types](#22-bounty-types) of Bounty that can be funded, each containing a series of [Tasks](#22-bounty-types) that are managed by the Bounty's [Admin](#4-admins), who earn a % commission of all rewards that the Bounty generates.
+Bounties are first proposed as Concepts by the community, and there are four [types](#22-bounty-types) of Bounty that can be funded, each containing a series of [Tasks](#22-bounty-types) that are managed by the Bounty's [Admin](#4-admins), who earn a commission of all rewards that the Bounty generates.
 
 ## 2.1 Concepts
 
@@ -132,13 +132,13 @@ Whilst bounty administration remains under the Admins of the bounty, a record of
 
 ## 2.5 Tasks
 
-A Task is the basic unit-of-work in the Incubator and represents a unit of open-source output that a user can produce for a specified reward.
+A Task is the basic unit of work in the Incubator and represents a unit of open-source output that a user can produce for a specified reward.
 
 All work in the Incubator, and consequently any use of funds, is performed via completion of a Task by a user, or the management of that Task by an [Admin](#4-admins), within a specific Bounty.
 
-Tasks are defined by Admins and can be completed by any user after [reserving](#33-reserving-tasks) the tasks with the Admin, or in the case of [Job](#22-bounty-types) tasks, completed without reservation.
+Tasks can be proposed by any Incubator User.  If a task is created by an Admin, any user may request to [reserve](#33-reserving-tasks) it with the Admin.  Tasks created by Admins can be categorized as [Job](#22-bounty-types) tasks to communicate that they may be completed without reservation or pre-approval.
 
-Each Task must define some quantifiable Output (a document, commit, etc) that a user can produce to be eligible to [Claim](#26-claims) the specified reward.
+Each Task includes a description of the quantifiable Output (a document, commit, etc) and the specified price denominated in Dash that a user can [Claim](#26-claims).
 
 There are four types of Task available within the Incubator:
 
@@ -171,13 +171,9 @@ Usually Production Tasks output some code or a working product, but if the Bount
 
 ### 2.5.4 QA Tasks
 
-Quality Assurance tasks validate and test that [Production Tasks](#253-production-tasks) meet their [Specification](#252-specification-tasks).
+Quality Assurance tasks validate and test that [Production Tasks](#253-production-tasks) meet their [Specification](#252-specification-tasks).  Production Tasks may require related QA tasks, particularly if prior Specification Tasks include QA criteria.  QA Tasks must reference the relevant Specification or Production Task and produce some QA report output.
 
-Most Production Tasks should require related QA tasks, and Specifications should include a QA plan to provide a clear and easy way to measure how well a Production Task meets its spec when the QA is performed.
-
-QA Tasks must reference the relevant Specification or Production Task and produce some QA report output.
-
-> It is recommended to use the [QA Report Template](https://docs.google.com/document/d/1FCIPJTGGNe-bmjEadO1QtJIvNI5L93Dgv0UeJ6lJzaM/edit) unless the admin requests an alternative format.
+> QA reports may use a [QA Report Template](https://docs.google.com/document/d/1FCIPJTGGNe-bmjEadO1QtJIvNI5L93Dgv0UeJ6lJzaM/edit), or any other format the admin requests or approves.
 
 ## 2.6 Claims
 
@@ -197,54 +193,34 @@ Admins can price tasks up to the max price. Strategists can claim a commission u
 
 <table>
   <tr>
-   <td><strong>Task Type</strong>
-   </td>
-   <td><strong>Approval Criteria</strong>
-   </td>
-   <td><strong>Max Price</strong>
-   </td>
-   <td><strong>Max Commission</strong>
-   </td>
+    <td><strong>Task Type</strong></td>
+    <td><strong>Approval Criteria</strong></td>
+    <td><strong>Max Price</strong></td>
+    <td><strong>Max Commission</strong></td>
   </tr>
   <tr>
-   <td>Concept Task
-   </td>
-   <td>Accepted Concept
-   </td>
-   <td>1 DASH
-   </td>
-   <td>20%
-   </td>
+    <td>Concept Task</td>
+    <td>Accepted Concept</td>
+    <td>1 DASH</td>
+    <td>20%</td>
   </tr>
   <tr>
-   <td>Specification Task
-   </td>
-   <td>Valid Specification
-   </td>
-   <td>100 DASH
-   </td>
-   <td>20%
-   </td>
+    <td>Specification Task</td>
+    <td>Valid Specification</td>
+    <td>100 DASH</td>
+    <td>20%</td>
   </tr>
   <tr>
-   <td>Production Task
-   </td>
-   <td>QA Complete
-   </td>
-   <td>100 DASH
-   </td>
-   <td>20%
-   </td>
+    <td>Production Task</td>
+    <td>QA Complete</td>
+    <td>100 DASH</td>
+    <td>20%</td>
   </tr>
   <tr>
-   <td>QA Task
-   </td>
-   <td>Valid QA Report
-   </td>
-   <td>10 Dash
-   </td>
-   <td>20%
-   </td>
+    <td>QA Task</td>
+    <td>Valid QA Report</td>
+    <td>10 Dash</td>
+    <td>20%</td>
   </tr>
 </table>
 
@@ -281,7 +257,7 @@ To reserve a task, leave a comment for the Admin of the Bounty that the Task is 
 
 Once you have completed the Task, use the [Claims process](#34-claiming-tasks) to claim the reward.
 
-If a claim isn't made by the due date, the Admin can extend the date, or has the option to cancel the reservation.
+If a claim isn't made by the due date, the Admin can extend the date, alter the reward, and/or cancel the reservation.
 
 > To be able to Reserve a Task please join as a Member of our Trello Board by leaving a comment on our [Member Signup Card](https://trello.com/c/VlpK4dgl/95-member-signup).
 
@@ -289,9 +265,10 @@ If a claim isn't made by the due date, the Admin can extend the date, or has the
 
 Once you have completed the work for a Task you can make a [Claim](#26-claims) for the reward on the Task, by providing the following information:
 
-1. Link to the source for the tasks output (specific PR or commit for Github code)
-2. Link to any deploy links relevant to the output (e.g. a URL for a website)
-3. Specify a valid Dash address to receive the reward, or set to [NULL](#341-null-claims) to decline the reward.
+1. The task type and number you are claiming (e.g. production task 3)
+2. Link to the source for the tasks output (specific PR or commit for Github code)
+3. Link to any deploy links relevant to the output (e.g. a URL for a website)
+4. A valid Dash address to receive the reward, or set to [NULL](#341-null-claims) to decline the reward.
 
 Once your Claim has been created it will be [processed](#434-processing-task-claims) by an admin.
 
@@ -322,8 +299,8 @@ Bounties are created via the Acceptance of a user-submitted [Concept](#31-concep
  - A Bounty is only created from a Concept approval, and all Bounties must refer back to a single Concept
  - Any Strategist can Accept a new Concept but must first validate that it meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria)
  - Strategists do not need permission from or consensus between other Admins to accept a Concept
- - Strategists can submit new Concepts themselves, but need another Strategist to Accept them.
- - Once a Concept is Accepted, an implicit Claim for the Concept Task reward is considered to be approved automatically
+ - Strategists can submit and accept new Concepts themselves
+ - Once a Concept is accepted, an implicit Claim for the Concept Task reward is considered to be approved automatically
 
 > - In Trello, Admins formally Accept a Concept by [creating a new Bounty](#421-creating-bounties) for the Concept and linking it in a reply to the user's comment on the [New Concept Card](https://trello.com/c/6XAuy9DW/94-request-new-concept) card.
 > - The Admin should also add an entry to the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), using the user's details and Dash address from the Concept they submitted
@@ -335,8 +312,7 @@ Strategists must judge that Concepts they wish to accept meet all of the followi
 1. Provide a clear Value Proposition that can return value to Dash that's inline with our [Dash Vision](#12-dash-vision)
 2. Provide enough detail on requirements to enable a Bounty to achieve the stated goals
 3. Be technically feasible using the current Dash Protocol or some unreleased but known iteration of it
-4. Be unique within the existing set of Concepts & Bounties already added to the Incubator, i.e. not a duplicate or very similar scope to an existing active Bounty
-5. Be achievable in terms of costs compared to the Incubator's current funding levels
+4. Be achievable in terms of costs compared to the Incubator's current funding levels
 
 ## 4.2 Bounty Management
 
@@ -372,7 +348,7 @@ The Strategist can optionally appoint an assistant Admin to the Bounty, enabling
 
 Admins can create [Tasks](#25-tasks) on any Bounty that they are an Assistant Admin on. When creating a Task, the Admin sets the Description, which must provide enough information to allow a Contributor to complete the work, either in the description itself or by linking a Specification.
 
-The due-date is the date whereby if a [Claim](#26-claims) is not made for the Task, the Admin has the option to cancel the task or cancel any reservation at the Admin's discretion.
+The due-date is the date whereby if a [Claim](#26-claims) is not made for the Task, the Admin may edit the task (including changing the reward and/or description, extending the due date, or canceling it completely).
 
 > When defining a Task in Trello, the Admin will chose the correct Checklist for the task type, and specify the following information:
 >1. A Task number, which is the sequential number of the Task in the relevant Checklist
@@ -394,19 +370,17 @@ On the other hand, low priority tasks with multiple resources already on-boarded
 
 In other words, Tasks should be priced via a process to discover what is the minimum reward level needed to incentivize a Contributor to deliver something and deciding whether externalities such as needing to find & onboard the necessary resources or meet a certain deadline need to be factored in based on the Bounty's priority.
 
-Fiat prices should be taken into consideration when a Task is created, but Tasks shouldn't be repriced if the fiat value changes unless not doing so would prevent completion of the Task.
+Fiat prices should be taken into consideration when a Task is created, but Tasks are typically not repriced based on fiat value changes after creation.
 
 ### 4.3.3 Reserving Tasks
 
-Except for [Job](#22-bounty-types) Bounty types, Admins must reserve Tasks to a specific user for the Task to be considered Active.
-
-Admins can arrange reservations and negotiate the Task's terms with the user within the comments or via private communication, but once the Task is reserved to the user, the terms are considered agreed and are public information.
+When Admins create tasks ahead of time, Members may request to reserve them and negotiate the Task's terms (description, reward, due date) within the comments or via private communication, but once the Task is reserved to the user, the terms are considered agreed and are public information.
 
 > On Trello, Tasks are represented by Checklists on the Bounty's Card, and are reserved by setting the Member setting to the user who reserved the Task and setting a date in the Due Date field.
 
 ### 4.3.4 Processing Task Claims
 
-When a user completes a Task, they create a [Claim](#26-claims) that the Admin needs to process to decide if the Claim can be Approved, if QA is needed, or if there are issues that need to be resolved.
+When a user completes a Task, they create a [Claim](#26-claims) that the Admin needs to process to decide if the Claim is Approved, if QA is needed, or if there are issues that need to be resolved.
 
 Approved Claims on Tasks go into the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0) from which the reward will be sent to the claimant.
 
@@ -416,70 +390,58 @@ Ultimately, decisions on whether some output meets the requirements specified in
 
 > In Trello, Admins can Approve a Claim by ticking the Task's Checkbox and leaving a comment on the Bounty card as follows:
 >
->```Claim Approved: [@username][checklistName]([taskIds])([amount] Dash)```
+>```[@username], claim Approved, [checklistName] [taskId])```
 >
 >For example:
 >
->```Claim Approved: @somedev Production Tasks (1,2) (1 Dash)```
+>```Claim Approved: @somedev Production Tasks 1,2```
 >
 >Admins must then enter the details into the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), filling in all columns and double checking the user’s payment address and reward amount, to enable the claim to be awarded.
 
 ## 4.4 Admin Rewards
 
-Admins are rewarded with a commission based on approved task claims. In addition, the Lead Strategist is awarded with a commission based on delegated budgets.
+Admins are rewarded with a commission based on approved task claims. In addition, strategists (a type of admin) are rewarded with a commission based on approved funding. See the commmission table below for details.
 
-Each quarter all Strategists submit a proposal with that quarter's monthly budget request to the Lead Strategist. The Lead Strategist uses this as a basis for their request from the Incubator general budget as well as for how much to request from the network. Admins are rewarded as follows:
+Each quarter all Strategists submit a network proposal with that quarter's monthly budget request. Admins are rewarded as follows:
 
-- The Lead Strategist is awarded a [commission](#441-commissions) on approved Strategist budgets.
-- Strategists (including the Lead Strategist) are awarded a [commission](#441-commissions) on approved tasks on Bounties they own.
-- Assistant Admins, when used, are awarded a portion of the Strategist commission.
+- Strategists may claim a [commission](#441-commissions) on each monthly budget payout approved by MNOs.
+- Strategists may claim a [commission](#441-commissions) on each task they approve on Bounties they own.
+- Assistant Admins, when used, are awarded a portion of the Strategist's task-based commission.
 
-Sample requests and reward calculations are shown in the [Incubator Budget Model Spreadsheet](https://docs.google.com/spreadsheets/d/1Utke_pYRNeqxygF1KsAakI3hwP0IX68QUDujpthIlq8/edit#gid=201630329). Note that the spreadsheet model and values can change over time and may not represent any real particular budget depending on when the sheet is accessed.
+Reward calculations are shown in the Claims and Reserve Planning tabs of the [Dash Incubator Accounting](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=941386650) spreadsheet. Note that the Reserve Planning model and values change over time and may not be accurate depending on when the sheet is accessed. The Claims tab data is accurate when accompanied by transaction identification (TxId) values.
 
-Current approved reward values are found in the [Price List](#27-rewards) and [commission table](#441-commissions).
+Current approved reward limits are found in the [Price List](#27-rewards) and [commission table](#441-commissions).
 
-Strategists can assign, complete, and claim Bounty Tasks for themselves, provided they carry out this process as usual and explictily assign themselves to the task for clear auditing purposes.
+Strategists can assign, complete, and claim Bounty Tasks for themselves, provided they carry out the task and claim processes and explictily assign themselves to the task for clear auditing purposes.
 
-Commission rewards don't require formal claims, they are implicit claims recorded with their associated work Tasks in the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0).
+Task commission rewards don't require separate claims, they are implicit claims recorded with their associated work Tasks in the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0).
 
-Note that Admins can also opt to decline rewards by creating a [Null Claim](#341-null-claims) on their commision within a Task Claim.
+Note that Admin reward claims can be lower than the limits listed below. 
+Admins simply claim a specific commission, up to but not exceeding the maximum claimable value.
 
-> To set a Null Claim on their Commission Reward, an Admin should enter their Dash address as 'NULL' in the Claim in the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0)
 
 ### 4.4.1 Commissions
 
 <table>
   <tr>
-   <td><strong>Role</strong>
-   </td>
-   <td><strong>Commission Rate</strong>
-   </td>
-   <td><strong>Time of Award</strong>
-   </td>
+    <td><strong>Role</strong></td>
+    <td><strong>Commission Limit</strong></td>
+    <td><strong>Time of Award</strong></td>
   </tr>
   <tr>
-    <td>Lead Strategist
-    </td>
-    <td>10% of delegated budget requests
-    </td>
-    <td>When delegated budgets are paid out
-    </td>
+    <td>Strategist</td>
+    <td>10% of MNO-approved budget</td>
+    <td>After approved superblocks are paid out each month</td>
   </tr>
   <tr>
-    <td>Strategist
-    </td>
-    <td>20% of task claim (10% if using Assistant Admin)
-    </td>
-    <td>When approved tasks are paid out
-    </td>
+    <td>Strategist</td>
+    <td>20% of task claim (10% if using Assistant Admin)</td>
+    <td>When approved tasks are paid out</td>
   </tr>
   <tr>
-    <td>Assistant Admin
-    </td>
-    <td>10% of task claim (half of Strategist's 20%)
-    </td>
-    <td>When approved tasks are paid out
-    </td>    
+    <td>Assistant Admin</td>
+    <td>10% of task claim (half of Strategist's 20%)</td>
+    <td>When approved tasks are paid out</td>    
   </tr>
 </table>
 
@@ -490,7 +452,6 @@ Note that Admins can also opt to decline rewards by creating a [Null Claim](#341
 The Strategic Committee is responsible to:
 
 - Approve or reject Incubator rule changes (updates to this document).
-- Approve or reject quarterly budget requests from the Lead Strategist.
 - Remove any Admin other than the [Lead Strategist](#47-lead-strategist).
 - Appoint a new Lead Strategist when the current Lead Strategist steps down.
 
@@ -502,7 +463,7 @@ The [Lead Strategist](#47-lead-strategist) can be replaced by masternode approva
 
 Strategists are [Admins](#4-admins) who define and execute strategies for achieving the Incubator's [mission](#11-mission) and [vision](#12-dash-vision). They ensure that the Incubator as a whole is delivering value to the Dash network.
 
-Each Strategist submits a quarterly proposal to the [Lead Strategist](#47-lead-strategist) identifying priorites, updates, budget requests, etc related to the projects they own. The Lead Strategist uses these proposals to help form the Incubator's main [funding proposal](#51-proposals).
+Each Strategist submits a quarterly Dash network funding proposal, identifying priorites, updates, budget requests, etc related to the projects they own.
 
 Strategists may also carry out the following:
 
@@ -512,58 +473,80 @@ Strategists may also carry out the following:
 
 ## 4.7 Lead Strategist
 
-The Lead Strategist is the [Admin](#4-admins) who writes and submits [Proposals](#64-proposals) to the Dash Network on behalf of the Incubator, and handles (but isn't liable for) custody and transactions of the Dash received on behalf of Admins.
+The Lead Strategist is the [Strategist](#46-strategists) who handles (but isn't liable for) custody of and transactions from the Dash received from the network. All proposal payout addresses for stategist proposals are controlled by the Lead Strategist to ensure that that all payouts adhere to Incubator rules.
 
-The Lead Strategist agrees to use funds solely for the purposes of awarding [Strategist Budgets](#522-strategist-budgets) and [Admin Task Claims](#26-claims).
+The Lead Strategist agrees to use funds solely for the purposes of [Task Claims](#26-claims) and [Admin Rewards](#44-admin-rewards).
 
-The Lead Strategist may also carry out the following:
+The Lead Strategist also carries out the following:
 
- - Promote Admins to Strategists.
- - Approve or reject Strategist budget requests.
+- Represents the Incubator publicly
+- Recruits developers and admins to the Incubator
+- Handles permissions for key Incubator [Resources](#6-resources)
+- Interfaces with Masternode Owners to receive feedback
+- Helps settle Incubator-related disputes, internal and external
+
 
 # 5 Funds
 
-The Incubator is fully transparent about all incoming and all outgoing funds. Funds are received through proposals, managed through budgets, and spent through Bounties.
+The Incubator is fully transparent about all incoming and all outgoing funds. Funds are received through proposals, managed through reserves, and spent on Tasks and commissions.
 
 ## 5.1 Proposals
 
-There are two types of proposals in the Incuabtor:
+There are two types of proposals from the Incuabtor to the Dash Network:
 
-- Network proposals from the Lead strategist to the Dash Network
-- Strategist proposals from each Strategist to the Lead Strategist
+- Proposals from the Lead Strategist
+- Proposals from (or for) additional Strategists
 
-### 5.1.1 Network Proposals
+The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis. The Lead Strategist submits the first proposal of each quarter. After that, anyone can submit additional proposals to participate as an Incubator Strategist.  Requirements for each type of proposal are shown in the following two sections.
 
-The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis. The Lead Strategist submits this proposal, which is informed by the collection of Strategist Proposals.
+### 5.1.1 Lead Strategist Proposals
 
-The amount requested might vary to target the general scale and buffer that Strategists, including the [Lead Strategist](#47-lead-strategist), feel the Incubator needs. When certain projects arise that require significant funding, individual proposals should be raised detailing the value proposition and estimated costs of those projects individually.
+Each quarter's proposal from the Lead Strategist includes:
 
-Anyone can request funds from the Incubator's general fund (but not individual [Strategist reserves](#522-strategist-budgets)) by submitting a proposal to the Dash Network with a specific requested amount. If such a proposal passes with the normal 10% supermajority required for Dash Network funding, the Lead Strategist will send that amount to the proposal's payout address. The amount requested may not be altered during the voting process.
+- Reporting of Incubator-wide accounting
+- Reporting of the Lead Strategist's current projects and focus
+- Dash addresses used as payout addresses for all existing strategist proposals
+- Dash addresses for propspective strategists to use as payout addresses in their proposals
 
-### 5.1.2 Strategist Proposals
 
-Each Strategist submits quarterly proposals to the Lead Strategist to increase their budgets. The content and purpose of this proposal is similar to the Lead Strategist's Network Proposal. It should report project updates, value propositions, budget spending, quarterly priorities, and anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
+Funding requested by the Lead Strategist is to support only their own projects, not the Incubator as a whole. 
 
-## 5.2 Budgets
+### 5.1.2 Additional Strategist Proposals
 
-There are two types of budgets in the Incuabtor:
+Each existing and prospective Strategist submits quarterly proposals to the Dash network for funding of their own projects. These proposals should be submitted with the same cadence as the Lead Strategist's proposal; it should be a three-month proposal submitted within one week of the Lead Strategist's proposal being live on the Dash network. Strategist proposals should include:
 
-- The Incubator general budget
-- Individual stategist budgets
+- Reporting of project updates, value propositions, reserve spending, quarterly priorities
+- Anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
 
-### 5.2.1 General Budget
 
-Network proposal funds are received to the published [Incubator Wallet](#63-accounting) address(es) and pooled across proposals as a rolling budget available to Strategist budgets.
+## 5.2 Reserves
 
-The Incubator is a pure Dash fund meaning that rewards are denominated only in Dash. Therefore any fluctuations in the fiat price of Dash will only reflect the pricing of new [Tasks](#25-tasks) by Admins and prior agreements made in Dash are not necessarily renegotiated or adjusted.
+There are two types of reserves in the Incuabtor:
 
-### 5.2.2 Strategist Budgets
+- The Lead Strategist reserve
+- Individual Stategist reserves
 
-Approved Strategist proposal funds are sent by the Lead Strategist to a distinct address for each Strategist. These addresses are currently controlled by the Lead Strategist, but when the system matures and Strategists agree to it, the Lead Strategist will instead send funds to addresses each Strategist controls and these rules and processes will be updated accordingly.
+Network proposal funds are received into the published [Incubator Wallet](#63-accounting) address(es) for each Strategist (including the Lead Strategist). These addresses are referred to as reserves because funds for each strategist collect into and remain in (through coin control transactions) a single address. Once an individual is approved (through a sucessful Incubator proposal) to be a strategist they retain the same Dash address for their Incubator reserve (unless and until updated Incubator rules dictate otherwise).
 
-Each Strategist's published address(es) carries funds in a rolling budget, similar to the general budget. Strategists have full autonomy over their budget spending, so long as they serve the Incubator's vision and mission, and are accounted for according to the [auditing rules](#53-auditing).
+All reserve addresses are under the control of the Lead Strategist. Funds are kept in separate reserves for accounting, auditing, and proposal funding purposes. The Incubator maintains Dash reserves only; no other assets are held.
 
-When a Strategist leaves or is removed from the Incubator their budget is returned to the General Budget.
+
+### 5.2.1 Lead Strategist Reserve
+
+When any strategist decides to stop working for the Incubator their reserve is transferred to the Lead Strategist reserve. This is what differentiates the Lead Strategist reserve from all others. The Lead Strategist does not transfer funds to other Strategist reserves. Funds only leave the Lead Strategist reserve in one of two ways:
+
+- rewards for approved tasks
+- transfer to a new Lead Strategist through the [governance](#45-governance) process.
+
+
+
+### 5.2.2 Strategist Reserves
+
+Funds from approved Strategist proposals are sent directly from superblocks to distinct addresses for each Strategist. These addresses are all controlled by the Lead Strategist.
+
+Each Strategist's published address carries funds in a rolling reserve. Strategists have full autonomy over their reserve spending, so long as they serve the Incubator's vision and mission, and are accounted for according to the [auditing rules](#53-auditing).
+
+When a Strategist leaves or is removed from the Incubator their reserve is transferred to the Lead Strategist's reserve.
 
 ## 5.3 Auditing
 
@@ -571,7 +554,7 @@ Anyone can perform a full public audit (#14-full-transparency) of the Incubator 
 
 ### 5.3.1 Auditing Accounts
 
-All spending by the Incubator is tracked via [Task Claims](#26-claims) approved by [Admins](#4-admins), with associated transactions accounted for in the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit?usp=sharing).
+All spending by the Incubator is tracked via [Task Claims](#26-claims) approved by [Admins](#4-admins), with associated transactions accounted for in the [Dash Incubator Accounting](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=941386650) spreadsheet.
 
 - The Balance tab shows all incoming funds and compares it with all approved Task Claims and the current blockchain balance. 
 - The Claims tab lists transaction ids for all rewarded claims which can be parsed to verify the reward amounts.
@@ -582,11 +565,11 @@ All work must be conducted inline with the Rules in this document and in the pub
 
 As a guideline, the following aspects of work are key areas to ensure the Rules are being implemented effectively.
 
- - Admins are pricing work fairly
- - Admins are interpreting the rules effectively
- - Approved concepts are are inline with our [Mission](#11-mission) and [Vision](#12-dash-vision)
- - Quality of output is sufficient for rewards
- - Task deadlines and due dates are being managed effectively
+- Admins are pricing work fairly
+- Admins are interpreting the rules effectively
+- Approved concepts are are inline with our [Mission](#11-mission) and [Vision](#12-dash-vision)
+- Quality of output is sufficient for rewards
+- Task deadlines and due dates are being managed effectively
 
 # 6 Resources
 
@@ -596,51 +579,36 @@ Below are links to all resources needed to access, fork or audit every aspect of
 
 <table>
   <tr>
-   <td><strong>Resource</strong>
-   </td>
-   <td><strong>Link</strong>
-   </td>
+    <td><strong>Resource</strong></td>
+    <td><strong>Link</strong></td>
   </tr>
   <tr>
-   <td>Website
-   </td>
-   <td><a href="https://dashinc.app">dashincubator.app</a>
-   </td>
+    <td>Website</td>
+    <td><a href="https://dashincubator.app">dashincubator.app</a></td>
   </tr>
   <tr>
-   <td>Website Source
-   </td>
-   <td><a href="https://github.com/DashIncubator/dash-incubator-app">github.com/DashIncubator/dash-incubator-app</a>
-   </td>
+    <td>Website Source</td>
+    <td><a href="https://github.com/dashincubator/dash-incubator-app">github.com/dashincubator/dash-incubator-app</a></td>
   </tr>
   <tr>
-   <td>Rules Source
-   </td>
-   <td><a href="https://github.com/DashIncubator/dash-incubator-rules/blob/master/rules.md">github.com/DashIncubator/dash-incubator-rules</a>
-   </td>
+    <td>Rules Source</td>
+    <td><a href="https://github.com/dashincubator/dash-incubator-rules/blob/master/rules.md">github.com/DashIncubator/dash-incubator-rules</a></td>
   </tr>
   <tr>
-   <td>Discussion:<a href="https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit?usp=sharing"> </a>
-   </td>
-   <td><a href="https://discord.gg/mU79ZWx">DashDevs Discord</a>
-   </td>
-  </tr>
+    <td>Discussion</td>
+    <td><a href="https://discord.gg/mU79ZWx">DashDevs Discord</a></td></tr>
 </table>
 
 ## 6.2 Data
 
 <table>
   <tr>
-   <td><strong>Resource</strong>
-   </td>
-   <td><strong>Link</strong>
-   </td>
+    <td><strong>Resource</strong></td>
+    <td><strong>Link</strong></td>
   </tr>
   <tr>
-   <td>Trello Board
-   </td>
-   <td><a href="https://trello.com/b/FPJzDcok/dash-incubator-app">Dash Incubator</a>
-   </td>
+    <td>Trello Board</td>
+    <td><a href="https://trello.com/b/FPJzDcok/dash-incubator-app">Dash Incubator</a></td>
   </tr>
 </table>
 
@@ -648,96 +616,91 @@ Below are links to all resources needed to access, fork or audit every aspect of
 
 <table>
   <tr>
-   <td><strong>Resource</strong>
-   </td>
-   <td><strong>Link</strong>
-   </td>
-  </tr>
-   <td>General budget
-   </td>
-   <td><a href="https://insight.dash.org/insight/address/XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub">XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub</a>
-   </td>
+    <td><strong>Resource</strong></td>
+    <td><strong>Link</strong></td>
   </tr>
   <tr>
-   <td>Accounts
-   </td>
-   <td><a href="https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit?usp=sharing">Incubator Accounting Spreadsheet</a>
-   </td>
+    <td>Former reserve</td>
+    <td><a href="https://insight.dash.org/insight/address/XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub">XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub</a></td>
+  </tr>
+  <tr>
+    <td>Lead Strategist Reserve</td>
+    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+  </tr>
+  <tr>
+    <td>Strategist Reserve A</td>
+    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+  </tr>
+  <tr>
+    <td>Strategist Reserve B</td>
+    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+  </tr>
+  <tr>
+    <td>Accounts</td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit?usp=sharing">Incubator Accounting Spreadsheet</a></td>
   </tr>
 </table>
 
 ## 6.4 Proposals
 <table>
   <tr>
-   <td><strong>Proposal</strong>
-   </td>
-   <td><strong>Link</strong>
-   </td>
-  </tr>
-   <tr>
-   <td>2020 Q1 (Phase 1)
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-platform-incubator"> dash-platform-incubator</a>
-   </td>
+    <td><strong>Proposal</strong></td>
+    <td><strong>Link</strong></td>
   </tr>
   <tr>
-   <td>2020 Q2 (Phase 2)
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-2"> dash-platform-incubator-phase-2</a>
-   </td>
+    <td>2020 Q1 (Phase 1)</td>
+    <td><a href="https://www.dashcentral.org/p/dash-platform-incubator"> dash-platform-incubator</a></td>
   </tr>
   <tr>
-   <td>2020 Q3 (Phase 3)
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-3">dash-platform-incubator-phase-3</a>
-   </td>
+    <td>2020 Q2 (Phase 2)</td>
+    <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-2"> dash-platform-incubator-phase-2</a></td>
   </tr>
   <tr>
-   <td>2020 Q4 (Phase 4)
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-4">dash-platform-incubator-phase-4</a>
-   </td>
+    <td>2020 Q3 (Phase 3)</td>
+    <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-3">dash-platform-incubator-phase-3</a></td>
   </tr>
   <tr>
-   <td>2021 Q1
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q1">dash-incubator-2021-q1</a> 
-   </td>
+    <td>2020 Q4 (Phase 4)</td>
+    <td><a href="https://www.dashcentral.org/p/dash-platform-incubator-phase-4">dash-platform-incubator-phase-4</a></td>
   </tr>
   <tr>
-   <td>2021 Q2
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q2">dash-incubator-2021-q2</a> 
-   </td>
+    <td>2021 Q1</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q1">dash-incubator-2021-q1</a></td>
   </tr>
   <tr>
-   <td>2021 Q3
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q3">dash-incubator-2021-q3</a> 
-   </td>
+    <td>2021 Q2</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q2">dash-incubator-2021-q2</a></td>
   </tr>
   <tr>
-   <td>2021 Q4
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q4">dash-incubator-2021-q4</a> 
-   </td>
+    <td>2021 Q3</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q3">dash-incubator-2021-q3</a></td>
   </tr>
   <tr>
-   <td>2022 Q1
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q1">dash-incubator-2022-q1</a> 
-   </td>
+    <td>2021 Q4</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2021-q4">dash-incubator-2021-q4</a></td>
   </tr>
   <tr>
-   <td>2022 Q2
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q2">dash-incubator-2022-q2</a> 
-   </td>
+    <td>2022 Q1</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q1">dash-incubator-2022-q1</a></td>
   </tr>
   <tr>
-   <td>2022 Q3
-   </td>
-   <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q3">dash-incubator-2022-q3</a> 
-   </td>
+    <td>2022 Q2</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q2">dash-incubator-2022-q2</a></td>
+  </tr>
+  <tr>
+    <td>2022 Q3</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q3">dash-incubator-2022-q3</a></td>
+  </tr>
+  <tr>
+    <td>2022 Q4</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2022-q4">dash-incubator-2022-q4</a></td>
+  </tr>
+  <tr>
+    <td>2023 Q1</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2023-q1">dash-incubator-2023-q1</a></td>
+  </tr>
+  <tr>
+    <td>2023 Q2</td>
+    <td><a href="https://www.dashcentral.org/p/dash-incubator-2023-q2">dash-incubator-2023-q2</a></td>
   </tr>
 </table>
