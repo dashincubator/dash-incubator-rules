@@ -136,7 +136,7 @@ A Task is the basic unit of work in the Incubator and represents a unit of open-
 
 All work in the Incubator, and consequently any use of funds, is performed via completion of a Task by a user, or the management of that Task by an [Admin](#4-admins), within a specific Bounty.
 
-Tasks can be proposed by any Incubator User.  If a task is created by an Admin, any user may request to [reserve](#33-reserving-tasks) it with the Admin.  Tasks created by Admins can be categorized as [Job](#22-bounty-types) tasks to communicate that they may be completed without reservation or pre-approval.
+Tasks can be proposed by any Incubator User. If a task is created by an Admin, any user may request to [reserve](#33-reserving-tasks) it with the Admin. Tasks created by Admins can be categorized as [Job](#22-bounty-types) tasks to communicate that they may be completed without reservation or pre-approval.
 
 Each Task includes a description of the quantifiable Output (a document, commit, etc) and the specified price denominated in Dash that a user can [Claim](#26-claims).
 
@@ -171,7 +171,7 @@ Usually Production Tasks output some code or a working product, but if the Bount
 
 ### 2.5.4 QA Tasks
 
-Quality Assurance tasks validate and test that [Production Tasks](#253-production-tasks) meet their [Specification](#252-specification-tasks).  Production Tasks may require related QA tasks, particularly if prior Specification Tasks include QA criteria.  QA Tasks must reference the relevant Specification or Production Task and produce some QA report output.
+Quality Assurance tasks validate and test that [Production Tasks](#253-production-tasks) meet their [Specification](#252-specification-tasks). Production Tasks may require related QA tasks, particularly if prior Specification Tasks include QA criteria. QA Tasks must reference the relevant Specification or Production Task and produce some QA report output.
 
 > QA reports may use a [QA Report Template](https://docs.google.com/document/d/1FCIPJTGGNe-bmjEadO1QtJIvNI5L93Dgv0UeJ6lJzaM/edit), or any other format the admin requests or approves.
 
@@ -441,7 +441,7 @@ Admins simply claim a specific commission, up to but not exceeding the maximum c
   <tr>
     <td>Assistant Admin</td>
     <td>10% of task claim (half of Strategist's 20%)</td>
-    <td>When approved tasks are paid out</td>    
+    <td>When approved tasks are paid out</td> 
   </tr>
 </table>
 
@@ -497,7 +497,7 @@ There are two types of proposals from the Incuabtor to the Dash Network:
 - Proposals from the Lead Strategist
 - Proposals from (or for) additional Strategists
 
-The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis. The Lead Strategist submits the first proposal of each quarter. After that, anyone can submit additional proposals to participate as an Incubator Strategist.  Requirements for each type of proposal are shown in the following two sections.
+The Incubator is funded from a series of [Proposals](#64-proposals) submitted to the [Dash Network](https://docs.dash.org/en/stable/governance/understanding.html) on a quarterly basis. The Lead Strategist submits the first proposal of each quarter. After that, anyone can submit additional proposals to participate as an Incubator Strategist. Requirements for each type of proposal are shown in the following two sections.
 
 ### 5.1.1 Lead Strategist Proposals
 
@@ -516,7 +516,7 @@ Funding requested by the Lead Strategist is to support only their own projects, 
 Each existing and prospective Strategist submits quarterly proposals to the Dash network for funding of their own projects. These proposals should be submitted with the same cadence as the Lead Strategist's proposal; it should be a three-month proposal submitted within one week of the Lead Strategist's proposal being live on the Dash network. Strategist proposals should include:
 
 - Reporting of project updates, value propositions, reserve spending, quarterly priorities
-- Anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested.
+- Anything else the strategist wants to commmunicate in order to help justify the value delivered to the network for the funding received and requested
 
 
 ## 5.2 Reserves
@@ -620,23 +620,33 @@ Below are links to all resources needed to access, fork or audit every aspect of
     <td><strong>Link</strong></td>
   </tr>
   <tr>
-    <td>Former reserve</td>
+    <td>General Reserve A (Andy as Proposal Owner)</td>
+    <td><a href="https://insight.dash.org/insight/address/XbFb9b1qaoLykngDbUwBVBFwSHuwQRhSqc">XbFb9b1qaoLykngDbUwBVBFwSHuwQRhSqc</a></td>
+  </tr>  
+  <tr>
+    <td>General Reserve B (Rion as Proposal Owner)</td>
     <td><a href="https://insight.dash.org/insight/address/XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub">XoNcU93gE6yMegtTSQpzHGPfHMRUiLS8Ub</a></td>
   </tr>
   <tr>
-    <td>Lead Strategist Reserve</td>
-    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+    <td>General Reserve C (Rion as Lead Strategist)</td>
+    <td><a href="https://insight.dash.org/insight/address/XpVFECgympGyGwRLet2xy14BBhFCWLiXhW">XpVFECgympGyGwRLet2xy14BBhFCWLiXhW</a></td>
   </tr>
   <tr>
-    <td>Strategist Reserve A</td>
-    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+    <td>Strategist Reserve 1 (Rion's Lead Strategist Reserve)</td>
+    <td><a href="https://insight.dash.org/insight/address/XwxXr39ErU7CK5fPe6N3AnDTi1kK9iDSmm">XwxXr39ErU7CK5fPe6N3AnDTi1kK9iDSmm</a></td>
   </tr>
   <tr>
-    <td>Strategist Reserve B</td>
-    <td><a href="https://insight.dash.org/insight/address/Xabc">Xacb</a></td>
+    <td>Strategist Reserve 2 (Ash's Strategist Reserve)</td>
+    <td><a href="https://insight.dash.org/insight/address/XdpS7kop2SowZvVqu7th9dRhZQAvSoJRL4">XdpS7kop2SowZvVqu7th9dRhZQAvSoJRL4</a></td>
   </tr>
   <tr>
-    <td>Accounts</td>
+    <td>Strategist Reserve 3 (Tim's Strategist Reserve)</td>
+    <td><a href="https://insight.dash.org/insight/address/XekTLjeHhtHzN3KNKBkA5hwCBRnftY5GMm">XekTLjeHhtHzN3KNKBkA5hwCBRnftY5GMm</a></td>
+  </tr>
+
+
+  <tr>
+    <td>Task Rewards</td>
     <td><a href="https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit?usp=sharing">Incubator Accounting Spreadsheet</a></td>
   </tr>
 </table>
