@@ -4,7 +4,7 @@ layout: default-rules
 ---
 View [RULES HISTORY](https://github.com/dashincubator/dash-incubator-app/commits/master/rules.md)
 
-# Dash Incubator Rules v4.0.0
+# Dash Incubator Rules v4.1.0
 
 # Contents
 
@@ -110,7 +110,7 @@ When a Bounty is created from a [Concept](#21-concepts) by a [Strategist](#46-st
 - **Jobs** are one-off pieces of work, such as finding bugs or fixing a github issue.
 - **Programmes** are collections of Project, Service or Job Bounties that coordinate large pieces of work.
 
-> All Bounties in the Incubator are represented by a Card on our [Trello Board](#https://trello.com/b/FPJzDcok/dash-incubator-app). The Bounty's type is represented by the column the Card is in on the Board. Meta Bounties are shown with the pink label on the Card's front cover.
+Bounties in the Incubator are managed publicly. Historically, this has been done on our [Trello Board](#https://trello.com/b/FPJzDcok/dash-incubator-app), but strategists [Strategist](#46-strategists) may use any project management tooling accessible from a public website.
 
 ## 2.3 Bounty Status
 
@@ -128,8 +128,6 @@ Whilst bounty administration remains under the Admins of the bounty, a record of
 
 [Concept](#21-concepts) creators are automatically added as Stakeholders of any Bounty that derives from the Concept.
 
-> On Trello, the stakeholder usernames are added to the Card's description in a Stakeholders section, including any additional information on the context for their involvement.
-
 ## 2.5 Tasks
 
 A Task is the basic unit of work in the Incubator and represents a unit of open-source output that a user can produce for a specified reward.
@@ -146,8 +144,6 @@ There are four types of Task available within the Incubator:
 - [Specification Tasks](#252-specification-tasks) - work that provides the detail necessary to define Production Tasks
 - [Production Tasks](#253-production-tasks) - work related to Tasks required to complete Project, Service and Job bounties
 - [QA Tasks](#254-qa-tasks) - work that assures the quality of Production Tasks
-
-> Each Task Type is represented as a named Checklist on the Bounty’s Trello Card, except for Concept Tasks, which are implicitly completed when a Concept is Accepted by an Admin.
 
 ### 2.5.1 Concept Tasks
 
@@ -234,14 +230,9 @@ All work produced at the Incubator must be open-sourced under MIT license before
 
 ## 3.1 Proposing Concepts
 
-Anyone can create a [Concept](#21-concepts) by signing up to the Incubator and submitting a [New Concept Template](https://trello.com/c/6XAuy9DW/94-request-new-concept).
+Anyone can propose a new [Concept](#21-concepts) by submitting a description and value proposition to a [Strategist](#46-strategists).  Examples are found on the [New Concept Template on Trello](https://trello.com/c/6XAuy9DW/94-request-new-concept), but these proposals can be hosted on any persistent and public URL controlled by an Incubator Strategist.
 
-Any [Strategist](#46-strategists) can [accept](#434-processing-task-claims) a Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria), meaning they create a new [Bounty](#2-bounties) for it that they become the owner of.
-
-The [Concept Reward](#271-price-list) is paid to the Dash address listed in the Concept when accepted.
-
->- To propose a Concept, add a comment on the [New Concept Card](https://trello.com/c/6XAuy9DW/94-request-new-concept) on Trello. 
->- To chat with Admins about a Concept or its acceptance, join the [DashDevs Discord](https://discord.gg/mU79ZWx) and ask on the #dash-incubator channel.
+Any [Strategist](#46-strategists) can [accept](#434-processing-task-claims) a Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria), meaning they create a new [Bounty](#2-bounties) for it that they become the owner of.  The [Concept Reward](#271-price-list) is paid to the Dash address listed in the Concept when accepted.
 
 ## 3.2 Completing Job Tasks
 
@@ -259,8 +250,6 @@ Once you have completed the Task, use the [Claims process](#34-claiming-tasks) t
 
 If a claim isn't made by the due date, the Admin can extend the date, alter the reward, and/or cancel the reservation.
 
-> To be able to Reserve a Task please join as a Member of our Trello Board by leaving a comment on our [Member Signup Card](https://trello.com/c/VlpK4dgl/95-member-signup).
-
 ## 3.4 Claiming Tasks
 
 Once you have completed the work for a Task you can make a [Claim](#26-claims) for the reward on the Task, by providing the following information:
@@ -272,25 +261,9 @@ Once you have completed the work for a Task you can make a [Claim](#26-claims) f
 
 Once your Claim has been created it will be [processed](#434-processing-task-claims) by an admin.
 
-> To create a Claim on Trello, leave a comment on the Bounty's [Trello Card](https://trello.com/b/FPJzDcok/dash-incubator-app) specifying the number and type of the Task you are claiming, along with the source links and your Dash address
-
-### 3.4.1 Null Claims
-
-In some cases, users wish to decline rewards for some reason.
-
-This is strongly discouraged as incentives are how Incubator maintains a high level of creativity, productivity, and quality of output, and Claims themselves are how we track and account for work completion.
-
-However, to support the requirement, we introduced the option to create a Null Claim.
-
-Therefore users who wish to decline rewards still need to make a Claim to signify and enable tracking of a Task's completion, but they can set the claim's Dash address to 'NULL' to signify that the actual reward is declined and therefore won't be awarded.
-
-> To create a Null Claim in Trello, simply enter the term 'NULL' in place of a Dash address on the relevant [Claim comment](#42-claiming-tasks).
-
 # 4 Admins
 
 Admins are users in the Incubator who are authorized and permitted to manage [Bounties](#2-bounties) in the Incubator. [Strategists](#46-strategists) are a subset of Admins who assume extra responsibilities, and can carry out all Admin actions. All [Bounties](#2-bounties) must be [originally accepted](#41-accepting-concepts) and [owned](#422-bounty-ownership) by a Strategist, but Admins can perform most administrative [Bounty Management](#42-bounty-management) actions.
-
-> On Trello, the board is configured to only allow Admins to create and edit cards, including defining and assigning tasks to Board members. Any user can comment on cards to interact with Admins about the bounties they're managing.
 
 ## 4.1 Accepting Concepts
 
@@ -302,8 +275,9 @@ Bounties are created via the Acceptance of a user-submitted [Concept](#31-concep
  - Strategists can submit and accept new Concepts themselves
  - Once a Concept is accepted, an implicit Claim for the Concept Task reward is considered to be approved automatically
 
-> - In Trello, Admins formally Accept a Concept by [creating a new Bounty](#421-creating-bounties) for the Concept and linking it in a reply to the user's comment on the [New Concept Card](https://trello.com/c/6XAuy9DW/94-request-new-concept) card.
-> - The Admin should also add an entry to the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), using the user's details and Dash address from the Concept they submitted
+Admins accept a Concept by [creating a new Bounty](#421-creating-bounties) for it in a Strategist's project management tool, and linking to it in a reply to the user's [proposed concept](#31-proposing-concepts).
+
+The Admin must also add an entry to the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), using a new or existing username and the Dash address from the Concept they submitted.
 
 ### 4.1.1 Concept Acceptance Criteria
 
@@ -328,19 +302,13 @@ Admins must ensure the following information is correctly configured on new Boun
 4. The Description text reflects the Value Proposition of the related Concept
 5. The Concept creator is listed as a [Stakeholder](#24-bounty-stakeholders)
 
-> After creating the card in Trello the Strategist should assign themselves as the Member of the card on the top left below the card title. Assistant Admins are designated by putting their Trello username into the assistant Admin field on the card.
-
 ### 4.2.2 Bounty Ownership
 
 The Strategist who created a Bounty is considered the owner of that Bounty and has priority rights to edit the Bounty's fields, define Tasks and process resulting Claims, and change the Bounty's [Status](#23-bounty-status). The Strategist may transfer ownership to another Strategist at any time.
 
-> In Trello, Ownership is determined by the Strategist who is the Member of the Card (there should only be one).
-
 ### 4.2.3 Assistant Admins
 
 The Strategist can optionally appoint an assistant Admin to the Bounty, enabling a maximum of two Admins to manage a bounty at one time. Assistant admins can edit the Bounty's details and carry out all administrative actions, but the Bounty is owned by the Strategist. Assistant Admin rewards are described in [Admin Rewards](#44-admin-rewards).
-
-> In Trello, Bounty Owners can appoint an assistant on a Card by entering their name in the assistant Admin field and assigning them as a Member of the Card. 
 
 ## 4.3 Task Management
 
@@ -350,15 +318,12 @@ Admins can create [Tasks](#25-tasks) on any Bounty that they are an Assistant Ad
 
 The due-date is the date whereby if a [Claim](#26-claims) is not made for the Task, the Admin may edit the task (including changing the reward and/or description, extending the due date, or canceling it completely).
 
-> When defining a Task in Trello, the Admin will chose the correct Checklist for the task type, and specify the following information:
->1. A Task number, which is the sequential number of the Task in the relevant Checklist
->2. A Description, summarising the broad requirements by a short definition is needed, and a link to a Specification to provide further detail if needed.
->3. An amount of Dash for the Reward. This can be [negotiated](#432-pricing-tasks) between the Admin and prospective users
->4. A due date and Task assignee
->
-> This information should be entered into the Task description in the following format:
->
->```[taskNumber]) [taskDescription] ([amount] DASH)```
+When defining a Task, the Admin must specify the following information:
+>1. A task [Type](#22-bounty-types)
+>2. A Task number, which is the sequential number of the Task for the relevant type.
+>3. A Description, summarising the broad requirements by a short definition is needed, and a link to a Specification to provide further detail if needed.
+>4. An amount of Dash for the Reward. This can be [negotiated](#432-pricing-tasks) between the Admin and prospective users
+>5. A due date and Task assignee
 
 ### 4.3.2 Pricing Tasks
 
@@ -376,8 +341,6 @@ Fiat prices should be taken into consideration when a Task is created, but Tasks
 
 When Admins create tasks ahead of time, Members may request to reserve them and negotiate the Task's terms (description, reward, due date) within the comments or via private communication, but once the Task is reserved to the user, the terms are considered agreed and are public information.
 
-> On Trello, Tasks are represented by Checklists on the Bounty's Card, and are reserved by setting the Member setting to the user who reserved the Task and setting a date in the Due Date field.
-
 ### 4.3.4 Processing Task Claims
 
 When a user completes a Task, they create a [Claim](#26-claims) that the Admin needs to process to decide if the Claim is Approved, if QA is needed, or if there are issues that need to be resolved.
@@ -388,15 +351,7 @@ If a Contributor wants to dispute a Claim decision, they can ask for a second op
 
 Ultimately, decisions on whether some output meets the requirements specified in the Task definition are the sole discretion of the Strategist that owns the Bounty.
 
-> In Trello, Admins can Approve a Claim by ticking the Task's Checkbox and leaving a comment on the Bounty card as follows:
->
->```[@username], claim Approved, [checklistName] [taskId])```
->
->For example:
->
->```Claim Approved: @somedev Production Tasks 1,2```
->
->Admins must then enter the details into the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), filling in all columns and double checking the user’s payment address and reward amount, to enable the claim to be awarded.
+Upon approveal, Admins must enter the details into the [Incubator Accounting Spreadsheet](https://docs.google.com/spreadsheets/d/1mhXlo4ylqWLLSYN4MGiLWlp7Gq3jrsDt0kB701dwMNU/edit#gid=0), filling in all columns and double checking the user’s payment address and reward amount, to enable the claim to be awarded.
 
 ## 4.4 Admin Rewards
 
